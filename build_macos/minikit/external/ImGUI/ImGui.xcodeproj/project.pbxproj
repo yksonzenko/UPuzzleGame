@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		03115A46B1F2454AA6907E9B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2FE04925EAC0484792777E84 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				30DAAD01AED849CCBC574076 /* CMake Rules */,
+			);
+			dependencies = (
+				A89F2DCB881B41FE9AEE4854 /* PBXTargetDependency */,
+				CEBF113693AA496CAFF7259E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		24904636616442BEB904A44D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4012678816074E5691C4E6C6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A14895A146D042C69DD4DE73 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		7F1F507FE1914E2A83CA4DAF /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4D926C2A42E84FCEBD834957 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				A00E1CE096844E5193DE7E66 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				98D7733E26C34CA4935F9BB5 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		394FF0EDACCB4C86A15CCA0E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_draw.cpp */ = {isa = PBXBuildFile; fileRef = 29F733BF209B4788BAFC7E7D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_draw.cpp */; };
+		44D222FD87B24BAEB1D5464B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.h */ = {isa = PBXBuildFile; fileRef = B3BF124A93FB43C5909217A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.h */; };
+		63BD3A00C5D54F2D88C5AF3D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_demo.cpp */ = {isa = PBXBuildFile; fileRef = 164DAD450F7A405A9F51D671 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_demo.cpp */; };
+		664C8BC15E3F473B8A5C3300 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.h */ = {isa = PBXBuildFile; fileRef = 1DB1FAE4411249D181DDC18C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.h */; };
+		6A3347EA65374DC0BB6CE3DE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.cpp */ = {isa = PBXBuildFile; fileRef = F0975BD2B5C9474784C756BE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.cpp */; };
+		6F76EBD82B7541D1AC2ACF7F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_widgets.cpp */ = {isa = PBXBuildFile; fileRef = AE25410611C340FC8E931E2E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_widgets.cpp */; };
+		C31919DAD817429B9A289283 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.mm */ = {isa = PBXBuildFile; fileRef = 92D5591D09504BC29B06F208 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.mm */; };
+		C6506EABC96B474295DBFDB1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.h */ = {isa = PBXBuildFile; fileRef = 138E5166D0EA4374A5037303 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.h */; };
+		C82285604D6D47B689FE5425 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C7B2F6F569C94B9EB33486DF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt */; };
+		FAD52C865E5F4F2D87FC7C10 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.cpp */ = {isa = PBXBuildFile; fileRef = B1328CE188764A9BA47069E4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0594BFBFEEDF49819809A3CA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A763C8889A84484691CC5EF7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		099E242E13BB431AAE19D94A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BCDA9FE87C14E88ACDE2C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03115A46B1F2454AA6907E9B;
+			remoteInfo = ALL_BUILD;
+		};
+		1DC223DF0511438DB7698F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BCDA9FE87C14E88ACDE2C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24904636616442BEB904A44D;
+			remoteInfo = ZERO_CHECK;
+		};
+		8C9AAC601AC24B3BBCD856CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BCDA9FE87C14E88ACDE2C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24904636616442BEB904A44D;
+			remoteInfo = ZERO_CHECK;
+		};
+		B8959A88A43E47EEAE4918CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BCDA9FE87C14E88ACDE2C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DB54CF5A79D4DD38A27C328;
+			remoteInfo = ImGui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		138E5166D0EA4374A5037303 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_impl_metal.h; path = backends/imgui_impl_metal.h; sourceTree = SOURCE_ROOT; };
+		164DAD450F7A405A9F51D671 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_demo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_demo.cpp; path = imgui_demo.cpp; sourceTree = SOURCE_ROOT; };
+		1DB1FAE4411249D181DDC18C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_impl_sdl.h; path = backends/imgui_impl_sdl.h; sourceTree = SOURCE_ROOT; };
+		29F733BF209B4788BAFC7E7D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = imgui_draw.cpp; sourceTree = SOURCE_ROOT; };
+		670331388D954547A065C94E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		92D5591D09504BC29B06F208 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = imgui_impl_metal.mm; path = backends/imgui_impl_metal.mm; sourceTree = SOURCE_ROOT; };
+		AE25410611C340FC8E931E2E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_widgets.cpp; path = imgui_widgets.cpp; sourceTree = SOURCE_ROOT; };
+		B1328CE188764A9BA47069E4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_sdl.cpp; path = backends/imgui_impl_sdl.cpp; sourceTree = SOURCE_ROOT; };
+		B3BF124A93FB43C5909217A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui.h; path = imgui.h; sourceTree = SOURCE_ROOT; };
+		C7B2F6F569C94B9EB33486DF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F06C75BB4D9D4014A4BDF5A4 /* ImGui */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libImGui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0975BD2B5C9474784C756BE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = imgui.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8334D29A30E84DAFA6A05BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272716D0F31141529566C69B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FB4EFAE48474B5A88485CD3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3C9C0F756B90404190EC9A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06C75BB4D9D4014A4BDF5A4 /* ImGui */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58601F7BA49F4F569DA9C5F2 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				138E5166D0EA4374A5037303 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.h */,
+				1DB1FAE4411249D181DDC18C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.h */,
+				B3BF124A93FB43C5909217A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6AA9F72FBBF342419B27B979 = {
+			isa = PBXGroup;
+			children = (
+				6EAB4F92489A434684393279 /* ImGui */,
+				F786D4B4DD88431EBE13590D /* ALL_BUILD */,
+				3C9C0F756B90404190EC9A3C /* Products */,
+				272716D0F31141529566C69B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EAB4F92489A434684393279 /* ImGui */ = {
+			isa = PBXGroup;
+			children = (
+				58601F7BA49F4F569DA9C5F2 /* Header Files */,
+				9884647C3E7848EAAB05E1C7 /* Source Files */,
+				C7B2F6F569C94B9EB33486DF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt */,
+			);
+			name = ImGui;
+			sourceTree = "<group>";
+		};
+		9884647C3E7848EAAB05E1C7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D5591D09504BC29B06F208 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.mm */,
+				B1328CE188764A9BA47069E4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.cpp */,
+				F0975BD2B5C9474784C756BE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.cpp */,
+				164DAD450F7A405A9F51D671 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_demo.cpp */,
+				29F733BF209B4788BAFC7E7D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_draw.cpp */,
+				AE25410611C340FC8E931E2E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_widgets.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F786D4B4DD88431EBE13590D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2FB4EFAE48474B5A88485CD3 /* CMake Rules */,
+				670331388D954547A065C94E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DB54CF5A79D4DD38A27C328 /* ImGui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E5DA1E22C74A7496018CD2 /* Build configuration list for PBXNativeTarget "ImGui" */;
+			buildPhases = (
+				DBD05AB9D11D4F3F9E601826 /* Sources */,
+				8334D29A30E84DAFA6A05BCC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB1CB4BCD864327AFC94D2E /* PBXTargetDependency */,
+			);
+			name = ImGui;
+			productName = ImGui;
+			productReference = F06C75BB4D9D4014A4BDF5A4 /* ImGui */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BCDA9FE87C14E88ACDE2C05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = AD16760DB8A748DB8F432241 /* Build configuration list for PBXProject "ImGui" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0594BFBFEEDF49819809A3CA /* Debug */,
+				A763C8889A84484691CC5EF7 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 6AA9F72FBBF342419B27B979;
+			projectDirPath = ../../../../minikit/external/ImGUI;
+			projectRoot = "";
+			targets = (
+				03115A46B1F2454AA6907E9B /* ALL_BUILD */,
+				9DB54CF5A79D4DD38A27C328 /* ImGui */,
+				24904636616442BEB904A44D /* ZERO_CHECK */,
+				7F1F507FE1914E2A83CA4DAF /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30DAAD01AED849CCBC574076 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI -f /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A00E1CE096844E5193DE7E66 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI -f /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A14895A146D042C69DD4DE73 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI -f /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD05AB9D11D4F3F9E601826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31919DAD817429B9A289283 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.mm */,
+				FAD52C865E5F4F2D87FC7C10 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.cpp */,
+				6A3347EA65374DC0BB6CE3DE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.cpp */,
+				63BD3A00C5D54F2D88C5AF3D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_demo.cpp */,
+				394FF0EDACCB4C86A15CCA0E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_draw.cpp */,
+				6F76EBD82B7541D1AC2ACF7F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_widgets.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DB1CB4BCD864327AFC94D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24904636616442BEB904A44D /* ZERO_CHECK */;
+			targetProxy = 1DC223DF0511438DB7698F85 /* PBXContainerItemProxy */;
+		};
+		98D7733E26C34CA4935F9BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03115A46B1F2454AA6907E9B /* ALL_BUILD */;
+			targetProxy = 099E242E13BB431AAE19D94A /* PBXContainerItemProxy */;
+		};
+		A89F2DCB881B41FE9AEE4854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DB54CF5A79D4DD38A27C328 /* ImGui */;
+			targetProxy = B8959A88A43E47EEAE4918CF /* PBXContainerItemProxy */;
+		};
+		CEBF113693AA496CAFF7259E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24904636616442BEB904A44D /* ZERO_CHECK */;
+			targetProxy = 8C9AAC601AC24B3BBCD856CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D1C1E64E0A44A828D62ABBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/.,/Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fobjc-arc ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ImGui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		376B07E67A02441D89B3C346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		38879BCCFD964F7BBF387B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI/build;
+			};
+			name = Debug;
+		};
+		9214A0DFE30643C3BBB6E3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A5CC7C2F67BE455283C3906C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D532493151204CACB4EAD902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D82F2A9867E24EA38D2F1695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DD4A2BF01310426798FD392E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E7B7178623C04BC3B67E01CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/.,/Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fobjc-arc ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ImGui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EE15657C5F944BEDA1B5D4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E5DA1E22C74A7496018CD2 /* Build configuration list for PBXNativeTarget "ImGui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B7178623C04BC3B67E01CE /* Debug */,
+				0D1C1E64E0A44A828D62ABBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2FE04925EAC0484792777E84 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				376B07E67A02441D89B3C346 /* Debug */,
+				D532493151204CACB4EAD902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4012678816074E5691C4E6C6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CC7C2F67BE455283C3906C /* Debug */,
+				9214A0DFE30643C3BBB6E3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D926C2A42E84FCEBD834957 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4A2BF01310426798FD392E /* Debug */,
+				D82F2A9867E24EA38D2F1695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AD16760DB8A748DB8F432241 /* Build configuration list for PBXProject "ImGui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38879BCCFD964F7BBF387B50 /* Debug */,
+				EE15657C5F944BEDA1B5D4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BCDA9FE87C14E88ACDE2C05 /* Project object */;
+}

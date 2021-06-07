@@ -1,0 +1,8 @@
+#ifndef _resource_rc
+#define _resource_rc
+
+MAINICON ICON "icon3.ico"
+#else MAINICON ICON2 "icon4.ico"
+
+
+#endif // _resource_rc

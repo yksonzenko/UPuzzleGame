@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/SDL_syshaptic.c \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/../../SDL_internal.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/../../dynapi/SDL_dynapi.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/../../dynapi/SDL_dynapi_overrides.h \
+  /Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2/include/SDL_config.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include/SDL_platform.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include/begin_code.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include/close_code.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include/SDL_assert.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include/SDL_config.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include/SDL_stdinc.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include/SDL_haptic.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include/SDL_error.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include/SDL_joystick.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/../SDL_syshaptic.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/../../joystick/SDL_sysjoystick.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/../../joystick/../SDL_internal.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/../../joystick/SDL_joystick_c.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include/SDL_gamecontroller.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include/SDL_rwops.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/../../joystick/darwin/SDL_sysjoystick_c.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/../../joystick/darwin/../../SDL_internal.h \
+  /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/SDL_syshaptic_c.h

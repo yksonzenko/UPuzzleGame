@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\DOWNLOADS\UCODEPUZZLE\BUILD\CMAKEFILES\3CACD5C872BDD94539018037E6351B6A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Downloads/UcodePuzzle -BC:/Users/ASUS/Downloads/UcodePuzzle/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ASUS/Downloads/UcodePuzzle/build/puzzle.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

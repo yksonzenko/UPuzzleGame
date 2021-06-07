@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\framework\CMakeFiles\MiniKit.Framework.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Foundation\Error.cpp">
+      <Filter>Source Files\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Engine\Context.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Platform\Window.cpp">
+      <Filter>Source Files\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Engine\Common\Context.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\CommandBuffer.cpp">
+      <Filter>Source Files\Graphics\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\Device.cpp">
+      <Filter>Source Files\Graphics\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\Image.cpp">
+      <Filter>Source Files\Graphics\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\WICTextureLoader11.cpp">
+      <Filter>Source Files\Graphics\D3D11</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\MiniKit.hpp">
+      <Filter>Header Files\MiniKit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Foundation\Predef.hpp">
+      <Filter>Header Files\MiniKit\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Foundation\Noncopyable.hpp">
+      <Filter>Header Files\MiniKit\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Foundation\Object.hpp">
+      <Filter>Header Files\MiniKit\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Foundation\Error.hpp">
+      <Filter>Header Files\MiniKit\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Engine\Context.hpp">
+      <Filter>Header Files\MiniKit\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Engine\ContextSubObject.hpp">
+      <Filter>Header Files\MiniKit\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Graphics\CommandBuffer.hpp">
+      <Filter>Header Files\MiniKit\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Graphics\Device.hpp">
+      <Filter>Header Files\MiniKit\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Graphics\DeviceSubObject.hpp">
+      <Filter>Header Files\MiniKit\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Graphics\Image.hpp">
+      <Filter>Header Files\MiniKit\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Graphics\Numerics.hpp">
+      <Filter>Header Files\MiniKit\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Platform\Keyboard.hpp">
+      <Filter>Header Files\MiniKit\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Platform\Mouse.hpp">
+      <Filter>Header Files\MiniKit\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Platform\Responder.hpp">
+      <Filter>Header Files\MiniKit\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Platform\Window.hpp">
+      <Filter>Header Files\MiniKit\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Engine\Context.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\CommandBuffer.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\Device.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\Image.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Platform\Window.hpp">
+      <Filter>Source Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\Arguments.hpp">
+      <Filter>Source Files\Graphics\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\CommandBuffer.hpp">
+      <Filter>Source Files\Graphics\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\Device.hpp">
+      <Filter>Source Files\Graphics\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\Image.hpp">
+      <Filter>Source Files\Graphics\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\WICTextureLoader11.hpp">
+      <Filter>Source Files\Graphics\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\framework\CMakeFiles\MiniKit.Framework.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\framework\CMakeFiles\MiniKit.Framework.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E1B89703-75EE-355F-97E7-075E66487450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MiniKit">
+      <UniqueIdentifier>{AD28BEB9-AA3F-379C-B18D-3EAC43930694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MiniKit\Engine">
+      <UniqueIdentifier>{5A18C0CA-F3A9-3D98-BC3F-4F82BEEA3C1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MiniKit\Foundation">
+      <UniqueIdentifier>{B07BD940-27BB-3FB6-A7EF-CA22ACA2F2D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MiniKit\Graphics">
+      <UniqueIdentifier>{A46D656D-20AA-3215-ACB2-4D2D2D202421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MiniKit\Platform">
+      <UniqueIdentifier>{C991F475-8107-3B80-88C9-EF6C9381E8EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{C9EA97F9-9E09-35CD-A305-A08F33D66484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B83DFF89-4607-3602-B94E-02007C47550D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{B635A758-F877-3910-BD8F-BF8290840D47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Common">
+      <UniqueIdentifier>{39425967-8C81-3E2A-BBD5-D4499FEB4444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Foundation">
+      <UniqueIdentifier>{E279CCFD-EBF2-3D7B-91DA-14C21E296D89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{389F5F32-455F-38D6-97EB-134A4F76CFDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\D3D11">
+      <UniqueIdentifier>{4F84D40F-3459-3AA2-917B-368DFC587114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform">
+      <UniqueIdentifier>{5F4FCDFF-2EF1-3BCE-8CDD-56F7271F099E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

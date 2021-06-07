@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\Grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\Tetromino.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\Score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\PauseResumeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\GameHUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\Grid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\Tetromino.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\Score.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\PauseResumeState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\GameLogic\GameHUD.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\game\assets\images\tetris_icon.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E1B89703-75EE-355F-97E7-075E66487450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B83DFF89-4607-3602-B94E-02007C47550D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

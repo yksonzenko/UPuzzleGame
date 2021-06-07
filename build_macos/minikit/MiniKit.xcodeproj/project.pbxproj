@@ -1,0 +1,1876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		03115A46B1F2454AA6907E9B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 55AC5F0C32F047258FE68AB4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				016CCBEECC224E17AE1FE7B0 /* CMake Rules */,
+			);
+			dependencies = (
+				CDB802588E6C45FBA0158E4D /* PBXTargetDependency */,
+				486C2CA9E5504E4780D138AE /* PBXTargetDependency */,
+				3CEE26943F0C483697384D8E /* PBXTargetDependency */,
+				E6D5358B78F64AAE8ADFD29F /* PBXTargetDependency */,
+				7ED431073502481481F7346F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		24904636616442BEB904A44D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3E0E916D72DA495F8C2641D9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FF6432218E3B42BAAB927AC6 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		50C2225606694F829C9AC103 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 43DBD0D1BEF541B994ECD31E /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				6007B1DED2154E298DA6F39F /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		7F1F507FE1914E2A83CA4DAF /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EE1A5FA871E042419ECBC544 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				B9DB2081332144C58AA589BB /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				558D027774C9494EAFD108EE /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00855B7CCE994CD0A9263BEB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d/SDL_shaders_d3d.c */ = {isa = PBXBuildFile; fileRef = 678810BE65854E2598C498CD /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d/SDL_shaders_d3d.c */; };
+		018381A684FA4436B8D4A815 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_stretch.c */ = {isa = PBXBuildFile; fileRef = FE6E2735975242B69CA05F85 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_stretch.c */; };
+		02BE39A30CD7449DADAB2E96 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_copysign.c */ = {isa = PBXBuildFile; fileRef = 16426A9EAEA7482896226AF0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_copysign.c */; };
+		0373B6BF363345A8BA7939B7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_surface.c */ = {isa = PBXBuildFile; fileRef = B5616979037149D09561D670 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_surface.c */; };
+		047EFEC82BB94D4298D11C4E /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Image.hpp */ = {isa = PBXBuildFile; fileRef = C6FADEC20F9B4B4B8E1FC5A7 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Image.hpp */; };
+		0809FB41F6DF4EBDB84D0E22 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiotypecvt.c */ = {isa = PBXBuildFile; fileRef = FD4438F01A194782A6C9D878 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiotypecvt.c */; };
+		0A28E555FE394DE69967B822 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/file/cocoa/SDL_rwopsbundlesupport.m */ = {isa = PBXBuildFile; fileRef = EF80108663FC489F87BD8A02 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/file/cocoa/SDL_rwopsbundlesupport.m */; };
+		0BA18515DBE840F69756328C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_sysmutex.c */ = {isa = PBXBuildFile; fileRef = 678329B0848F40E382E798CE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_sysmutex.c */; };
+		0CBDF7E39BCF46B9896B8E6D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamousetap.m */ = {isa = PBXBuildFile; fileRef = 767C3CE071DD4B3B8368B9C3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamousetap.m */; };
+		107BA886A5E146B1960E072B /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/MiniKit.hpp */ = {isa = PBXBuildFile; fileRef = 317F02A0694B41199C6A12FC /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/MiniKit.hpp */; };
+		11A24E74FCC64A93A53040BB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_1.c */ = {isa = PBXBuildFile; fileRef = 513593056E4E4201909F07FF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_1.c */; };
+		11DCA8DDAF014482B5376EC6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/loadso/dlopen/SDL_sysloadso.c */ = {isa = PBXBuildFile; fileRef = 5986CC59F5234F3BAE9A492B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/loadso/dlopen/SDL_sysloadso.c */; };
+		13E3DDDC483A485FB1D9C7C6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8ED355311E0C4C1EB7EBEC1E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/CMakeLists.txt */; };
+		1463A989089846FB9A934E2E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_atan2.c */ = {isa = PBXBuildFile; fileRef = 3EF54E74A23D4B37BC44B1AF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_atan2.c */; };
+		14D0BF264FE2418393F7F450 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles2/SDL_render_gles2.c */ = {isa = PBXBuildFile; fileRef = 07DE1B53A4E14195A13820C1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles2/SDL_render_gles2.c */; };
+		1529BC7CF8AA49A68F834589 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/cpuinfo/SDL_cpuinfo.c */ = {isa = PBXBuildFile; fileRef = 3B81310C433C4CF6A3572E07 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/cpuinfo/SDL_cpuinfo.c */; };
+		161159DF26544B85AC6DBBE4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_systhread.c */ = {isa = PBXBuildFile; fileRef = 7885C3EA6F9E49C0882E46A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_systhread.c */; };
+		1838803BBD344879BE55742D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamessagebox.m */ = {isa = PBXBuildFile; fileRef = E7CE2125C24449BFB44BEFC8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamessagebox.m */; };
+		18439792D81146B48C98F16A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_strtokr.c */ = {isa = PBXBuildFile; fileRef = F892698431FD415594F53070 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_strtokr.c */; };
+		19D3FB94BCA041E994377572 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_iconv.c */ = {isa = PBXBuildFile; fileRef = 1C75912919A9412AA627B074 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_iconv.c */; };
+		1A2A174A666B4ADDA579924E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_systls.c */ = {isa = PBXBuildFile; fileRef = B69C0DCD4956497BAF229789 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_systls.c */; };
+		1C6BDADAAD544B38B43640AB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles2/SDL_shaders_gles2.c */ = {isa = PBXBuildFile; fileRef = 140C851E51C64B499C079086 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles2/SDL_shaders_gles2.c */; };
+		1D8910BD4D744A21ACFCA699 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_render_sw.c */ = {isa = PBXBuildFile; fileRef = B4AC18CEFFAD4DBC9C77E3C6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_render_sw.c */; };
+		1EB8CD774E7C4423827CE192 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_clipboard.c */ = {isa = PBXBuildFile; fileRef = 6F8900D0A7674B01B1BFB480 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_clipboard.c */; };
+		1F417DBB91624503AA930005 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_pixels.c */ = {isa = PBXBuildFile; fileRef = 33013201368B4F54AA1DB8CC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_pixels.c */; };
+		2178EA2929214FA68AB2483E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.mm */ = {isa = PBXBuildFile; fileRef = 460EC1929ACF43FE9DFDEEB4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.mm */; };
+		22F75B26AB4A4BAE8F7211B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/filesystem/cocoa/SDL_sysfilesystem.m */ = {isa = PBXBuildFile; fileRef = 91EE3E306FF849ECBF7D0730 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/filesystem/cocoa/SDL_sysfilesystem.m */; };
+		24052DF05B9841EF94BA3A95 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_sqrt.c */ = {isa = PBXBuildFile; fileRef = 482327367DCD42E8B67E1CBB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_sqrt.c */; };
+		265A885DC2D240B08D615A11 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaclipboard.m */ = {isa = PBXBuildFile; fileRef = CF73A64FF126452FB386F582 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaclipboard.m */; };
+		28A66A1B23854B4897709A30 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_clipboardevents.c */ = {isa = PBXBuildFile; fileRef = DF8EC65A67014EF0AA69F7A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_clipboardevents.c */; };
+		2A2DA9078AF34E559B091158 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_render.c */ = {isa = PBXBuildFile; fileRef = 4DBF00E235EC416B905BDF0F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_render.c */; };
+		2B78FAF03A6140D2A4A45085 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL.c */ = {isa = PBXBuildFile; fileRef = E5552FD25AF74AD7AA5D5A4D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL.c */; };
+		2B7FDFA17FD24DFCBA46910C /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Context.hpp */ = {isa = PBXBuildFile; fileRef = B50E7F74C1BE4B9289CDB7E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Context.hpp */; };
+		2C2C655C900E4806A4086C06 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaopengl.m */ = {isa = PBXBuildFile; fileRef = 06DDEC081C7E4621989EA5A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaopengl.m */; };
+		2C8A124D90244862A30D17C5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_N.c */ = {isa = PBXBuildFile; fileRef = 386683EB6335444D9FE5C266 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_N.c */; };
+		2C9E20A1487246D3979FB9D7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoavideo.m */ = {isa = PBXBuildFile; fileRef = 78A6AF539B1A4E028B2680FE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoavideo.m */; };
+		2DD23067E9DE4280A2089256 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Device.mm */ = {isa = PBXBuildFile; fileRef = 17BFAC9F8FEE4A7986F1141D /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Device.mm */; };
+		2F6E8CEEE0E9477E9FFEEFA0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamouse.m */ = {isa = PBXBuildFile; fileRef = 40E5DFDC590F4396847F5D4F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamouse.m */; };
+		339FA3CD62614250A2C36476 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_touch.c */ = {isa = PBXBuildFile; fileRef = 245DDA43E16A45BCA0032A17 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_touch.c */; };
+		34694702C4DC4624AE43E430 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Numerics.hpp */ = {isa = PBXBuildFile; fileRef = 1A2E288264C6437A82EDC412 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Numerics.hpp */; };
+		36B3593087484214A93315EE /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/CommandBuffer.hpp */ = {isa = PBXBuildFile; fileRef = A4D5FB50E5B044C19B681802 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/CommandBuffer.hpp */; };
+		396D9D91CF724348B74EFDFF /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/DeviceSubObject.hpp */ = {isa = PBXBuildFile; fileRef = D6328F99EEED47E591EE4168 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/DeviceSubObject.hpp */; };
+		3A7672E4E35C4C82869397BD /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_string.c */ = {isa = PBXBuildFile; fileRef = 7C27D814A36947E390454CF2 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_string.c */; };
+		3DD3E963986F48199C735B9E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_dropevents.c */ = {isa = PBXBuildFile; fileRef = 41F72BAD97F84AD2B4B6D89F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_dropevents.c */; };
+		3F2C8BA2ADB941CBBF433402 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/SDL_thread.c */ = {isa = PBXBuildFile; fileRef = 92D9BAA6A62F4C91B7126FEB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/SDL_thread.c */; };
+		3FDA62A0CF6B48C282EF7432 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_fmod.c */ = {isa = PBXBuildFile; fileRef = 95E2615F307D4A7C9AD2CB90 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_fmod.c */; };
+		403C33F03C404FD0A86BC31F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_bmp.c */ = {isa = PBXBuildFile; fileRef = 88953C22022349D7822D2678 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_bmp.c */; };
+		408A25232FC04D3F83342171 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/timer/unix/SDL_systimer.c */ = {isa = PBXBuildFile; fileRef = 10ECAADA129A40C78031110B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/timer/unix/SDL_systimer.c */; };
+		40BDCDEE3B8347789DB966E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_0.c */ = {isa = PBXBuildFile; fileRef = CC79F65876DC43718F3B0EA3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_0.c */; };
+		4133832B2AF64CDBA8497C9C /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Engine/ContextSubObject.hpp */ = {isa = PBXBuildFile; fileRef = FF6E18A80EAF48FCB182F6F4 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Engine/ContextSubObject.hpp */; };
+		417BF8DC16254088A813E8B9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_mouse.c */ = {isa = PBXBuildFile; fileRef = A5F0B8F5B46E43B2BC191B25 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_mouse.c */; };
+		422A530A85E641389CF64B2C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_sin.c */ = {isa = PBXBuildFile; fileRef = 95094AB4DF6C46BC820D170D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_sin.c */; };
+		46272D06B62D420DBE707349 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_rect.c */ = {isa = PBXBuildFile; fileRef = B68D38BBC48540E09F144939 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_rect.c */; };
+		4708659FDB414F7CA8CD49D9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_tan.c */ = {isa = PBXBuildFile; fileRef = BD2C43BCFE9E4A3E80C80982 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_tan.c */; };
+		49F23CA3C6F64480B47F7C29 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/metal/SDL_render_metal.m */ = {isa = PBXBuildFile; fileRef = 5EA9D407D5BD4FB781927FB6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/metal/SDL_render_metal.m */; };
+		4A65FBCC20F24345847C1281 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_drawline.c */ = {isa = PBXBuildFile; fileRef = 9F8B7BE3F6A44EACB6A3E0BA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_drawline.c */; };
+		4A7A0B90DEC44EAF9AC4B461 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit.c */ = {isa = PBXBuildFile; fileRef = A3FE8C0E932145A49DBD0264 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit.c */; };
+		4AB3C8C39BB8487DB61B30C5 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Platform/Window.cpp */ = {isa = PBXBuildFile; fileRef = 4AB060CCCAE848E6A7FCC2E9 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Platform/Window.cpp */; };
+		4C8305E3E45F417EB4C7764A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/power/macosx/SDL_syspower.c */ = {isa = PBXBuildFile; fileRef = A51C033098DC47DCB8897CA5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/power/macosx/SDL_syspower.c */; };
+		4D3EBBBC9AAF4C37AC168093 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Mouse.hpp */ = {isa = PBXBuildFile; fileRef = F0D09193CC5C4BA687D76CA2 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Mouse.hpp */; };
+		4D982CF9F98441C6AD4202CA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullevents.c */ = {isa = PBXBuildFile; fileRef = 6033EC01771A4CDDB636403D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullevents.c */; };
+		4DF31CC8F9834CB28D0F47E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoashape.m */ = {isa = PBXBuildFile; fileRef = 9ED5C33CBE594DC7AB73C09F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoashape.m */; };
+		4E0A88DDA69C43E48DB91657 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_cos.c */ = {isa = PBXBuildFile; fileRef = 23B2D3F9BD3A41C689175E40 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_cos.c */; };
+		51D96766BA014F34BD8F70B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_A.c */ = {isa = PBXBuildFile; fileRef = 3F111B6C84C447A5BB8A3745 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_A.c */; };
+		554F50EE6A144547AEC7F4F2 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5F9B39B69B3C490CADE9B935 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/CMakeLists.txt */; };
+		5728CCAB9DFB4414B6F6B215 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_widgets.cpp */ = {isa = PBXBuildFile; fileRef = 5A048D0AA718435584FBF3B7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_widgets.cpp */; };
+		5766F0FB446F42FFA1BDD0D3 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Window.hpp */ = {isa = PBXBuildFile; fileRef = BDC28A6EF7E64DBA86C6A865 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Window.hpp */; };
+		577A376650834827AF88C6A5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/psp/SDL_render_psp.c */ = {isa = PBXBuildFile; fileRef = 98095F1F64DA457BB4E1C9A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/psp/SDL_render_psp.c */; };
+		58749882C49340BEB7DACE6C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/atomic/SDL_atomic.c */ = {isa = PBXBuildFile; fileRef = 4348984C5A4D46F2B0F508B0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/atomic/SDL_atomic.c */; };
+		5919A85C769F435EA6C24D5B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/SDL_haptic.c */ = {isa = PBXBuildFile; fileRef = 0FDA786D26A64C2DBBC343A0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/SDL_haptic.c */; };
+		599AA57CC04440948484E7CF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_sin.c */ = {isa = PBXBuildFile; fileRef = 0B1ECA1F9DA54DAF8DEA1076 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_sin.c */; };
+		5E0A6B2547914142B99DDEE9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_assert.c */ = {isa = PBXBuildFile; fileRef = A5E878790BD74B288D9E5131 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_assert.c */; };
+		6123DA31A54740D1A55FA8C1 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5216FD2306ED4C9583BC630C /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/CMakeLists.txt */; };
+		63239CB0A56447768545E9B3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoametalview.m */ = {isa = PBXBuildFile; fileRef = FD989C4116F444978AB2BFC3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoametalview.m */; };
+		64C10B079A3C4F6885618456 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/dynapi/SDL_dynapi.c */ = {isa = PBXBuildFile; fileRef = 85D292FD213C47429B517305 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/dynapi/SDL_dynapi.c */; };
+		6556AE9711FD4CAFB5033D84 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/power/SDL_power.c */ = {isa = PBXBuildFile; fileRef = 45395AD01FEE4A54ABBD9E8A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/power/SDL_power.c */; };
+		65E9F48EBBBF4989BE83A1C8 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Device.hpp */ = {isa = PBXBuildFile; fileRef = 9092A6A8C89C4CD4A6835359 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Device.hpp */; };
+		66999919A9134DF3AD3CA90E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_floor.c */ = {isa = PBXBuildFile; fileRef = 82045008031A4D789AA6E5C8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_floor.c */; };
+		682AA865A72B453C8AA7C61F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_quit.c */ = {isa = PBXBuildFile; fileRef = 5CA0589184EC41AA855267E1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_quit.c */; };
+		6903B2549A4E4A15A21AAAA2 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_video.c */ = {isa = PBXBuildFile; fileRef = EE520029642D48B49D3762EC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_video.c */; };
+		6A0399827D96429A86F2081F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_stdlib.c */ = {isa = PBXBuildFile; fileRef = FD210D63F59941B2AB108135 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_stdlib.c */; };
+		6F037F909F824F708F73299A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_malloc.c */ = {isa = PBXBuildFile; fileRef = 6FD20F81950E4F0FBE169E36 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_malloc.c */; };
+		6FF3CADF80EC4F40973FB104 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.h */ = {isa = PBXBuildFile; fileRef = BA71D2BBE87848FDBA668F51 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.h */; };
+		7048FE7209DF449EB2D9E061 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Device.hpp */ = {isa = PBXBuildFile; fileRef = DFF7C5CB0D2548F59FCF6868 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Device.hpp */; };
+		719DD9EF22CD434CAC3D5ADC /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Responder.hpp */ = {isa = PBXBuildFile; fileRef = 8850410CB6364978BC0C6C1B /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Responder.hpp */; };
+		71F57271E18D4925A2865B4A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_atan.c */ = {isa = PBXBuildFile; fileRef = 8506EFAF1140447C97F56E10 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_atan.c */; };
+		737FF5404B684B81BFCA2241 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/dummy/SDL_dummyaudio.c */ = {isa = PBXBuildFile; fileRef = 6F8C4A5B2C444A79A8D2E22B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/dummy/SDL_dummyaudio.c */; };
+		7400D31B1FF0447997FB7E88 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_yuv.c */ = {isa = PBXBuildFile; fileRef = C6B7C37F650C48549AF920B8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_yuv.c */; };
+		749AF1DAA7184395BF3F9777 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Context.cpp */ = {isa = PBXBuildFile; fileRef = 9B31F1A17AA5463EA06CEF53 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Context.cpp */; };
+		76CF2FC7175445DBAEA441AF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/SDL_syshaptic.c */ = {isa = PBXBuildFile; fileRef = 86D4406D21EF4AF49CA29C25 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/SDL_syshaptic.c */; };
+		778138AB8122404D97975F3D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullvideo.c */ = {isa = PBXBuildFile; fileRef = 7D8EB7314C034F73940C22B6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullvideo.c */; };
+		7AEE0E4F565C4A3EAFACC0D7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendpoint.c */ = {isa = PBXBuildFile; fileRef = A617723D95664B118A9E2FD5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendpoint.c */; };
+		7EB97C641EAB42CF9292ACB4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_cos.c */ = {isa = PBXBuildFile; fileRef = A206FAB3308D410F9CA580A1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_cos.c */; };
+		7ED246A6A2344FEA9B1C9B8C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles/SDL_render_gles.c */ = {isa = PBXBuildFile; fileRef = D7818E99586A426BB55EAD7D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles/SDL_render_gles.c */; };
+		7F2B1D7AD6904AC8B3FEA727 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaevents.m */ = {isa = PBXBuildFile; fileRef = 42C74AC8B4304AB9B50588C7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaevents.m */; };
+		7FA2E214A1144A5482A922EB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_fabs.c */ = {isa = PBXBuildFile; fileRef = ABDC5F7B5D0A44A7A0D5447D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_fabs.c */; };
+		8039C54694F1474AB2D67D0D /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Platform/Window.hpp */ = {isa = PBXBuildFile; fileRef = 7BA7AC293856456EB50B194D /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Platform/Window.hpp */; };
+		80A20B4E360B4ABABA2E3D6A /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/CommandBuffer.mm */ = {isa = PBXBuildFile; fileRef = 21E0C2698AAC45B4B121274B /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/CommandBuffer.mm */; };
+		8150E0A9BD3A43F3AE0AAB8A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_shape.c */ = {isa = PBXBuildFile; fileRef = 7C76AEE1AB144D7B8F57663D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_shape.c */; };
+		823EA098A7E94BBB84180CE2 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/CommandBuffer.hpp */ = {isa = PBXBuildFile; fileRef = 3868B54B97A44802A8866CE1 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/CommandBuffer.hpp */; };
+		82788DA9EF234B4DA999FFFC /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Object.hpp */ = {isa = PBXBuildFile; fileRef = 797AE3BF4C484A4FAA714E32 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Object.hpp */; };
+		82AEF259F38E4D17AE28BC9D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.h */ = {isa = PBXBuildFile; fileRef = 0BF88547557C4CCA8D0FDCA3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.h */; };
+		854EEFE7831B4469AC71774B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d11/SDL_shaders_d3d11.c */ = {isa = PBXBuildFile; fileRef = D15592004C424FD2BFBD5FDA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d11/SDL_shaders_d3d11.c */; };
+		89CF892EAFA04E5F82115ABF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.h */ = {isa = PBXBuildFile; fileRef = 3800F9E6E4AF46AE84DAD2E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.h */; };
+		8B2FC6A78789482AB978FC35 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendfillrect.c */ = {isa = PBXBuildFile; fileRef = 169C6DC62F59408988C63755 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendfillrect.c */; };
+		8C40E5B3D5CF42BBAA5C67B7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamodes.m */ = {isa = PBXBuildFile; fileRef = 1747AE1B7BC24ADBAF5908AF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamodes.m */; };
+		8D3AA47CFE3B4E69A9C74DA4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_egl.c */ = {isa = PBXBuildFile; fileRef = FC77F7E89E524E80B61BD3E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_egl.c */; };
+		8D68ADDB0A3B41FBA5F8F91D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.cpp */ = {isa = PBXBuildFile; fileRef = EBC2DF36FCF54FF1AE0722D0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.cpp */; };
+		90D940B6CE0349E1AC4FAE69 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_windowevents.c */ = {isa = PBXBuildFile; fileRef = 00E7F4B201D24EA58881141E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_windowevents.c */; };
+		92B4A458C2004E65A1866920 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_copy.c */ = {isa = PBXBuildFile; fileRef = EA51800D05084C748CB1CB4C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_copy.c */; };
+		985BF4249FE4446B855930C0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengl/SDL_render_gl.c */ = {isa = PBXBuildFile; fileRef = CC72622F20834A4CA7BF1D7E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengl/SDL_render_gl.c */; };
+		992949CE18AD4630A7DA1801 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_drawpoint.c */ = {isa = PBXBuildFile; fileRef = 352E56BA4F994C69A33E3C32 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_drawpoint.c */; };
+		9B871A75AB7F4E84B6DEC209 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/coreaudio/SDL_coreaudio.m */ = {isa = PBXBuildFile; fileRef = 2A6B3A720C83454AB6347E94 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/coreaudio/SDL_coreaudio.m */; };
+		9C9948A3B00343B8B89B3094 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Noncopyable.hpp */ = {isa = PBXBuildFile; fileRef = 9DE080B217984156A20E37A9 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Noncopyable.hpp */; };
+		9E34ADC7F48049C3A23B40C9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_yuv_sw.c */ = {isa = PBXBuildFile; fileRef = FFA0DA8F9069422998D9E53B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_yuv_sw.c */; };
+		A018E406AFEC48CB982D3C61 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_slow.c */ = {isa = PBXBuildFile; fileRef = 1371669C20964809BE71C4BF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_slow.c */; };
+		A101852B83A0417587BEE247 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audio.c */ = {isa = PBXBuildFile; fileRef = FAC48B67BEC3475EB32332C0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audio.c */; };
+		A1341CC66D3C491A902FDADF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_error.c */ = {isa = PBXBuildFile; fileRef = 255D7FFE25704089BD9758B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_error.c */; };
+		A504EB31DC7047348033A712 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_rem_pio2.c */ = {isa = PBXBuildFile; fileRef = F01BD82E41AC43A6BE2FF9EA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_rem_pio2.c */; };
+		A59396F74652476F9EC26223 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_events.c */ = {isa = PBXBuildFile; fileRef = A6821C5E21A04D0BB4AF375A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_events.c */; };
+		A6BB32C3249246C6872672A3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_pow.c */ = {isa = PBXBuildFile; fileRef = 4531504926364A5196B81283 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_pow.c */; };
+		A6D37DA4BAAA4311B86B49A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Predef.hpp */ = {isa = PBXBuildFile; fileRef = 4A664ECA4B8E4142A814CD4C /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Predef.hpp */; };
+		A871EEE93DBE4BE98A28EEC1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_keyboard.c */ = {isa = PBXBuildFile; fileRef = 75AC40A6F32A45C3A67C559E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_keyboard.c */; };
+		A9B1CE14FC6F4A969B537445 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_dataqueue.c */ = {isa = PBXBuildFile; fileRef = 50C1BE12D0474615B3AF2BA3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_dataqueue.c */; };
+		AA52E0166DF74C478FA4539A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_qsort.c */ = {isa = PBXBuildFile; fileRef = CD03DC76CD7E4EE8BC346D7C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_qsort.c */; };
+		AADE244DB03945C388075DC1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_vulkan_utils.c */ = {isa = PBXBuildFile; fileRef = C09983D93C2642C68595A88E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_vulkan_utils.c */; };
+		ACBE46B5C66143A9A9C181B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Error.hpp */ = {isa = PBXBuildFile; fileRef = E1146F253EB940829FD31D5F /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Error.hpp */; };
+		ADD4C632BC14408C9C98FC80 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoawindow.m */ = {isa = PBXBuildFile; fileRef = 30DEA0F2ED9A4FD69FE6B39F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoawindow.m */; };
+		AF31FAB7DBDE44C1867FB4B3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_log.c */ = {isa = PBXBuildFile; fileRef = CC6BCACFC7204C88B769438F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_log.c */; };
+		B0783054E63744DC9A44476E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/SDL_gamecontroller.c */ = {isa = PBXBuildFile; fileRef = 069F4E09C3FF4977A6B8D948 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/SDL_gamecontroller.c */; };
+		B3CD386B1DFD48F3B52E606E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/disk/SDL_diskaudio.c */ = {isa = PBXBuildFile; fileRef = C6C287A14D954050BE7CC78A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/disk/SDL_diskaudio.c */; };
+		B598C7FDA6204376A9941B2F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/file/SDL_rwops.c */ = {isa = PBXBuildFile; fileRef = 67151E906FA9488AA0A67E13 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/file/SDL_rwops.c */; };
+		B614934460E843A890CFD5C1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_tan.c */ = {isa = PBXBuildFile; fileRef = 7B97FA1CC0654788835C8DE7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_tan.c */; };
+		B6A10EDB24BD4B99B93D3900 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiocvt.c */ = {isa = PBXBuildFile; fileRef = 1AAEF2B1E39D4A3FBDD7B2ED /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiocvt.c */; };
+		B83F229FC6EB40CDB6FCBF14 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Macos/Context.mm */ = {isa = PBXBuildFile; fileRef = 6CCCC8BCC07240BDBA29E09D /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Macos/Context.mm */; };
+		B945819542AF4DC0B586E9F3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/SDL_joystick.c */ = {isa = PBXBuildFile; fileRef = FBC8B29759BD482D89280F2C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/SDL_joystick.c */; };
+		B94CDBFC42D842AAB51D943E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/sensor/dummy/SDL_dummysensor.c */ = {isa = PBXBuildFile; fileRef = 442F45F40F1C43B588EEB02E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/sensor/dummy/SDL_dummysensor.c */; };
+		B99CFC3C8DC1470BA294C63F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_rotate.c */ = {isa = PBXBuildFile; fileRef = 5CF74FB869A14C4186377A28 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_rotate.c */; };
+		BAE4FBC263B84D91895FEB54 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 936C53EBAD694559A04CF07F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt */; };
+		C0D735D61F494F0F9E9D0574 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/CommandBuffer.hpp */ = {isa = PBXBuildFile; fileRef = 886E9F1DB0DD40CEBD7FC375 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/CommandBuffer.hpp */; };
+		C0F78181EF624A19A9760DBC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/sensor/SDL_sensor.c */ = {isa = PBXBuildFile; fileRef = C88B0A9C53AF4174A5F7786D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/sensor/SDL_sensor.c */; };
+		C17C4FCF91F54E3EA4F6CE0A /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Keyboard.hpp */ = {isa = PBXBuildFile; fileRef = 392EEDF1147E48F3ACC509F0 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Keyboard.hpp */; };
+		C27BBE2A75EB43C2A54692B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Foundation/Error.cpp */ = {isa = PBXBuildFile; fileRef = 5303E39CAD3844C28C0A4EFC /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Foundation/Error.cpp */; };
+		C35BB251CC8B46328B0616E9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_gesture.c */ = {isa = PBXBuildFile; fileRef = E1F4AAD4F9544FF5A00ECDFF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_gesture.c */; };
+		C3CA83B514944D6C90F25701 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d/SDL_render_d3d.c */ = {isa = PBXBuildFile; fileRef = 64B58A47AF814868AFDB7C1A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d/SDL_render_d3d.c */; };
+		C43C950E212749DCAD40431A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_auto.c */ = {isa = PBXBuildFile; fileRef = 2E51696DC75D4290983C2DD9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_auto.c */; };
+		C7652C9DBC9C4EB7838F9C5E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendline.c */ = {isa = PBXBuildFile; fileRef = E6A08FCA24F8412EA1B5274E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendline.c */; };
+		C9290D95F5E9463CA17D0B3F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/timer/SDL_timer.c */ = {isa = PBXBuildFile; fileRef = 8FB8105062684ED080A9DCF6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/timer/SDL_timer.c */; };
+		CA40038C05DF41FB8BA1C35D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullframebuffer.c */ = {isa = PBXBuildFile; fileRef = DE34840CF7AB42D796E2DFEA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullframebuffer.c */; };
+		CAEC8627375C432CB035CEB5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_wave.c */ = {isa = PBXBuildFile; fileRef = 2855AFF7F77F4E3392824A98 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_wave.c */; };
+		CD3774394AED44818851DD10 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.cpp */ = {isa = PBXBuildFile; fileRef = D425E950DF594B099A7653C3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.cpp */; };
+		CF6A12C8D6C142608ADA8A4A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_demo.cpp */ = {isa = PBXBuildFile; fileRef = 4076DDB7DFA948E5A37D475B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_demo.cpp */; };
+		CF75D18238F3424B95008FA5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/yuv2rgb/yuv_rgb.c */ = {isa = PBXBuildFile; fileRef = 956D4D3A00EB458FBB9DD2A0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/yuv2rgb/yuv_rgb.c */; };
+		CF9CB0DD951B45A89980F56D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaopengles.m */ = {isa = PBXBuildFile; fileRef = E1E0942E549143C5BFDC1EC9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaopengles.m */; };
+		D08EDEA6B7FF48059146049E /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Image.mm */ = {isa = PBXBuildFile; fileRef = 95DE98CDD4274FF9AE4EE9EB /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Image.mm */; };
+		D0915B02406841219796EA7B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiodev.c */ = {isa = PBXBuildFile; fileRef = 3033BEA0CD45469F9CBC5F29 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiodev.c */; };
+		D636FEE36FC14DF39AB6D896 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Device.hpp */ = {isa = PBXBuildFile; fileRef = 425D6F86513E4050B00813B0 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Device.hpp */; };
+		D96B0078CA33446F884AA3D5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_log10.c */ = {isa = PBXBuildFile; fileRef = 134134C9497D4130A04E198A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_log10.c */; };
+		D9DE6FDF09EF4819AC3D5DF7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/atomic/SDL_spinlock.c */ = {isa = PBXBuildFile; fileRef = 8638C6E97D134788B7139E4A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/atomic/SDL_spinlock.c */; };
+		DEF944A803DC478499095D73 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_mixer.c */ = {isa = PBXBuildFile; fileRef = 8C05F4FAF28F4998AEF7C532 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_mixer.c */; };
+		DFC27CEF056648949286C283 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_syscond.c */ = {isa = PBXBuildFile; fileRef = 3FE73328EE984560B37D06EE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_syscond.c */; };
+		E1E61E88061543FEB1401E71 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/darwin/SDL_sysjoystick.c */ = {isa = PBXBuildFile; fileRef = A8247E872B4A4DC09A1AB70B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/darwin/SDL_sysjoystick.c */; };
+		E3904C2EFD7847ADBE3C7720 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_rem_pio2.c */ = {isa = PBXBuildFile; fileRef = EE949627FE6F45E992B1D364 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_rem_pio2.c */; };
+		E7129839D46A4FC8B94E3ABA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_draw.cpp */ = {isa = PBXBuildFile; fileRef = 8BD358BE7F5B4825B7CE405C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_draw.cpp */; };
+		E81F674E83834381B7453FCC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_fillrect.c */ = {isa = PBXBuildFile; fileRef = E72C28CB67C44D9EADF22757 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_fillrect.c */; };
+		E8D06DB2C4A64A7BAA075670 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/main/dummy/SDL_dummy_main.c */ = {isa = PBXBuildFile; fileRef = 3ED7AE2C538C418DB349A8CB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/main/dummy/SDL_dummy_main.c */; };
+		E8E0F8248F4742EAB268CFDE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_RLEaccel.c */ = {isa = PBXBuildFile; fileRef = C3E089EE6973467D8882058E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_RLEaccel.c */; };
+		EA8CC739EE5C4C6E90931E99 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d11/SDL_render_d3d11.c */ = {isa = PBXBuildFile; fileRef = 79E4BDCABA094821A3B7CDE5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d11/SDL_render_d3d11.c */; };
+		EB0C70514BBE44C2AD3880B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoavulkan.m */ = {isa = PBXBuildFile; fileRef = 64AFE6CF184E46608616FD0A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoavulkan.m */; };
+		EBDAD31FD2E74ABF83EDD963 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Image.hpp */ = {isa = PBXBuildFile; fileRef = A4F5B325D4B84335B05A3C9F /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Image.hpp */; };
+		EE7D1694AA824E1291469499 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengl/SDL_shaders_gl.c */ = {isa = PBXBuildFile; fileRef = DCAEE62B0A3C4C639536D27C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengl/SDL_shaders_gl.c */; };
+		EE92C25355A3474B83E1EE88 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_syssem.c */ = {isa = PBXBuildFile; fileRef = 2FAA5E32953141B2BE503712 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_syssem.c */; };
+		F5B3247B3E6B491CA785EF31 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoakeyboard.m */ = {isa = PBXBuildFile; fileRef = 9EB4D9ABD243415EB97610F0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoakeyboard.m */; };
+		F6682AA87B554C3EBF17A64D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_displayevents.c */ = {isa = PBXBuildFile; fileRef = FEBCBF4FD9E9448BA022BCCC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_displayevents.c */; };
+		F8003FCAFE98402CBF4A3DFE /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Image.hpp */ = {isa = PBXBuildFile; fileRef = CC8A57D5950C4838A43CE968 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Image.hpp */; };
+		F8324092644348CEB779C67D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_log.c */ = {isa = PBXBuildFile; fileRef = 312C057D7509428789B4154B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_log.c */; };
+		F85AE4EEA404408FBC9F1439 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Engine/Context.hpp */ = {isa = PBXBuildFile; fileRef = 8C78EE5F30664618A7EB9F19 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Engine/Context.hpp */; };
+		FA43DC7CC974443C8C165E39 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_getenv.c */ = {isa = PBXBuildFile; fileRef = 53F87260F23D4C10917AA5BA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_getenv.c */; };
+		FA66191F2F764A9CB3C570D4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_scalbn.c */ = {isa = PBXBuildFile; fileRef = BA3AD2A2005F4138A86A5FA6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_scalbn.c */; };
+		FAF38DD54F1E4AEA96ACE305 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_hints.c */ = {isa = PBXBuildFile; fileRef = 1000DFF6D42447EF9522F45D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_hints.c */; };
+		FE85B7DB2AC04AE1AF04C54F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_d3dmath.c */ = {isa = PBXBuildFile; fileRef = 8E1F8576143C49DD8AB345F4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_d3dmath.c */; };
+		FEFE3DB7502F44A499F48DF6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_exp.c */ = {isa = PBXBuildFile; fileRef = 1E21DB0096E84ABEBB076333 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_exp.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4D0CB44F159F410B8D25C4A0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		5A8020CE86E84AF196FFE52A /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		05B3BB6805C84E9FBB67EAEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C721C08C3429475F9AAF9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DB54CF5A79D4DD38A27C328;
+			remoteInfo = ImGui;
+		};
+		40127F3819854E408648C649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C721C08C3429475F9AAF9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DB54CF5A79D4DD38A27C328;
+			remoteInfo = ImGui;
+		};
+		4C97030370514F5CB495A10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C721C08C3429475F9AAF9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3C8E36061E64FE8BD759BD8;
+			remoteInfo = "SDL2-static";
+		};
+		558999ADA50B496C8F18FF68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C721C08C3429475F9AAF9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03115A46B1F2454AA6907E9B;
+			remoteInfo = ALL_BUILD;
+		};
+		7B664CAA09964F95B1645527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C721C08C3429475F9AAF9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 996762F22BEA4B6395419B97;
+			remoteInfo = MiniKit.Framework;
+		};
+		8AE22E4279354F5BACF23BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C721C08C3429475F9AAF9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3C8E36061E64FE8BD759BD8;
+			remoteInfo = "SDL2-static";
+		};
+		CB6C2CE9FB8E446FB5B433AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C721C08C3429475F9AAF9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9009C9A475974821BE21F6AA;
+			remoteInfo = SDL2main;
+		};
+		ED194C1E7B654420BC241A87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C721C08C3429475F9AAF9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3C8E36061E64FE8BD759BD8;
+			remoteInfo = "SDL2-static";
+		};
+		F238E0787DAA440294B2057B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C721C08C3429475F9AAF9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24904636616442BEB904A44D;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E7F4B201D24EA58881141E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_windowevents.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_windowevents.c; path = external/SDL2/src/events/SDL_windowevents.c; sourceTree = SOURCE_ROOT; };
+		069F4E09C3FF4977A6B8D948 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/SDL_gamecontroller.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_gamecontroller.c; path = external/SDL2/src/joystick/SDL_gamecontroller.c; sourceTree = SOURCE_ROOT; };
+		06DDEC081C7E4621989EA5A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaopengl.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoaopengl.m; path = external/SDL2/src/video/cocoa/SDL_cocoaopengl.m; sourceTree = SOURCE_ROOT; };
+		07DE1B53A4E14195A13820C1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles2/SDL_render_gles2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_gles2.c; path = external/SDL2/src/render/opengles2/SDL_render_gles2.c; sourceTree = SOURCE_ROOT; };
+		0B1ECA1F9DA54DAF8DEA1076 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_sin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = k_sin.c; path = external/SDL2/src/libm/k_sin.c; sourceTree = SOURCE_ROOT; };
+		0BF88547557C4CCA8D0FDCA3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui.h; path = external/ImGUI/imgui.h; sourceTree = SOURCE_ROOT; };
+		0FDA786D26A64C2DBBC343A0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/SDL_haptic.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_haptic.c; path = external/SDL2/src/haptic/SDL_haptic.c; sourceTree = SOURCE_ROOT; };
+		1000DFF6D42447EF9522F45D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_hints.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_hints.c; path = external/SDL2/src/SDL_hints.c; sourceTree = SOURCE_ROOT; };
+		10ECAADA129A40C78031110B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/timer/unix/SDL_systimer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_systimer.c; path = external/SDL2/src/timer/unix/SDL_systimer.c; sourceTree = SOURCE_ROOT; };
+		134134C9497D4130A04E198A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_log10.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_log10.c; path = external/SDL2/src/libm/e_log10.c; sourceTree = SOURCE_ROOT; };
+		1371669C20964809BE71C4BF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_slow.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_slow.c; path = external/SDL2/src/video/SDL_blit_slow.c; sourceTree = SOURCE_ROOT; };
+		140C851E51C64B499C079086 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles2/SDL_shaders_gles2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_shaders_gles2.c; path = external/SDL2/src/render/opengles2/SDL_shaders_gles2.c; sourceTree = SOURCE_ROOT; };
+		16426A9EAEA7482896226AF0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_copysign.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_copysign.c; path = external/SDL2/src/libm/s_copysign.c; sourceTree = SOURCE_ROOT; };
+		169C6DC62F59408988C63755 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendfillrect.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blendfillrect.c; path = external/SDL2/src/render/software/SDL_blendfillrect.c; sourceTree = SOURCE_ROOT; };
+		1747AE1B7BC24ADBAF5908AF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamodes.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoamodes.m; path = external/SDL2/src/video/cocoa/SDL_cocoamodes.m; sourceTree = SOURCE_ROOT; };
+		17BFAC9F8FEE4A7986F1141D /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Device.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Device.mm; path = framework/src/Graphics/Metal/Device.mm; sourceTree = SOURCE_ROOT; };
+		1A2E288264C6437A82EDC412 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Numerics.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Numerics.hpp; path = framework/include/MiniKit/Graphics/Numerics.hpp; sourceTree = SOURCE_ROOT; };
+		1AAEF2B1E39D4A3FBDD7B2ED /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiocvt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_audiocvt.c; path = external/SDL2/src/audio/SDL_audiocvt.c; sourceTree = SOURCE_ROOT; };
+		1C75912919A9412AA627B074 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_iconv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_iconv.c; path = external/SDL2/src/stdlib/SDL_iconv.c; sourceTree = SOURCE_ROOT; };
+		1E21DB0096E84ABEBB076333 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_exp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_exp.c; path = external/SDL2/src/libm/e_exp.c; sourceTree = SOURCE_ROOT; };
+		21E0C2698AAC45B4B121274B /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/CommandBuffer.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = CommandBuffer.mm; path = framework/src/Graphics/Metal/CommandBuffer.mm; sourceTree = SOURCE_ROOT; };
+		23B2D3F9BD3A41C689175E40 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_cos.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = k_cos.c; path = external/SDL2/src/libm/k_cos.c; sourceTree = SOURCE_ROOT; };
+		245DDA43E16A45BCA0032A17 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_touch.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_touch.c; path = external/SDL2/src/events/SDL_touch.c; sourceTree = SOURCE_ROOT; };
+		255D7FFE25704089BD9758B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_error.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_error.c; path = external/SDL2/src/SDL_error.c; sourceTree = SOURCE_ROOT; };
+		2855AFF7F77F4E3392824A98 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_wave.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_wave.c; path = external/SDL2/src/audio/SDL_wave.c; sourceTree = SOURCE_ROOT; };
+		2A6B3A720C83454AB6347E94 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/coreaudio/SDL_coreaudio.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_coreaudio.m; path = external/SDL2/src/audio/coreaudio/SDL_coreaudio.m; sourceTree = SOURCE_ROOT; };
+		2DF39733DD5F4AE8BCF167F6 /* SDL2main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDL2maind.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E51696DC75D4290983C2DD9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_auto.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_auto.c; path = external/SDL2/src/video/SDL_blit_auto.c; sourceTree = SOURCE_ROOT; };
+		2FAA5E32953141B2BE503712 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_syssem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_syssem.c; path = external/SDL2/src/thread/pthread/SDL_syssem.c; sourceTree = SOURCE_ROOT; };
+		3033BEA0CD45469F9CBC5F29 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiodev.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_audiodev.c; path = external/SDL2/src/audio/SDL_audiodev.c; sourceTree = SOURCE_ROOT; };
+		30DEA0F2ED9A4FD69FE6B39F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoawindow.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoawindow.m; path = external/SDL2/src/video/cocoa/SDL_cocoawindow.m; sourceTree = SOURCE_ROOT; };
+		312C057D7509428789B4154B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_log.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_log.c; path = external/SDL2/src/libm/e_log.c; sourceTree = SOURCE_ROOT; };
+		317F02A0694B41199C6A12FC /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/MiniKit.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = MiniKit.hpp; path = framework/include/MiniKit/MiniKit.hpp; sourceTree = SOURCE_ROOT; };
+		33013201368B4F54AA1DB8CC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_pixels.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_pixels.c; path = external/SDL2/src/video/SDL_pixels.c; sourceTree = SOURCE_ROOT; };
+		352E56BA4F994C69A33E3C32 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_drawpoint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_drawpoint.c; path = external/SDL2/src/render/software/SDL_drawpoint.c; sourceTree = SOURCE_ROOT; };
+		3800F9E6E4AF46AE84DAD2E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_impl_sdl.h; path = external/ImGUI/backends/imgui_impl_sdl.h; sourceTree = SOURCE_ROOT; };
+		386683EB6335444D9FE5C266 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_N.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_N.c; path = external/SDL2/src/video/SDL_blit_N.c; sourceTree = SOURCE_ROOT; };
+		3868B54B97A44802A8866CE1 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/CommandBuffer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CommandBuffer.hpp; path = framework/src/Graphics/CommandBuffer.hpp; sourceTree = SOURCE_ROOT; };
+		392EEDF1147E48F3ACC509F0 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Keyboard.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Keyboard.hpp; path = framework/include/MiniKit/Platform/Keyboard.hpp; sourceTree = SOURCE_ROOT; };
+		3B81310C433C4CF6A3572E07 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/cpuinfo/SDL_cpuinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_cpuinfo.c; path = external/SDL2/src/cpuinfo/SDL_cpuinfo.c; sourceTree = SOURCE_ROOT; };
+		3ED7AE2C538C418DB349A8CB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/main/dummy/SDL_dummy_main.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dummy_main.c; path = external/SDL2/src/main/dummy/SDL_dummy_main.c; sourceTree = SOURCE_ROOT; };
+		3EF54E74A23D4B37BC44B1AF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_atan2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_atan2.c; path = external/SDL2/src/libm/e_atan2.c; sourceTree = SOURCE_ROOT; };
+		3F111B6C84C447A5BB8A3745 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_A.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_A.c; path = external/SDL2/src/video/SDL_blit_A.c; sourceTree = SOURCE_ROOT; };
+		3FE73328EE984560B37D06EE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_syscond.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_syscond.c; path = external/SDL2/src/thread/pthread/SDL_syscond.c; sourceTree = SOURCE_ROOT; };
+		4076DDB7DFA948E5A37D475B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_demo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_demo.cpp; path = external/ImGUI/imgui_demo.cpp; sourceTree = SOURCE_ROOT; };
+		40E5DFDC590F4396847F5D4F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamouse.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoamouse.m; path = external/SDL2/src/video/cocoa/SDL_cocoamouse.m; sourceTree = SOURCE_ROOT; };
+		41F72BAD97F84AD2B4B6D89F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_dropevents.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dropevents.c; path = external/SDL2/src/events/SDL_dropevents.c; sourceTree = SOURCE_ROOT; };
+		425D6F86513E4050B00813B0 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Device.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Device.hpp; path = framework/include/MiniKit/Graphics/Device.hpp; sourceTree = SOURCE_ROOT; };
+		42C74AC8B4304AB9B50588C7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaevents.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoaevents.m; path = external/SDL2/src/video/cocoa/SDL_cocoaevents.m; sourceTree = SOURCE_ROOT; };
+		4348984C5A4D46F2B0F508B0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/atomic/SDL_atomic.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_atomic.c; path = external/SDL2/src/atomic/SDL_atomic.c; sourceTree = SOURCE_ROOT; };
+		442F45F40F1C43B588EEB02E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/sensor/dummy/SDL_dummysensor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dummysensor.c; path = external/SDL2/src/sensor/dummy/SDL_dummysensor.c; sourceTree = SOURCE_ROOT; };
+		4531504926364A5196B81283 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_pow.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_pow.c; path = external/SDL2/src/libm/e_pow.c; sourceTree = SOURCE_ROOT; };
+		45395AD01FEE4A54ABBD9E8A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/power/SDL_power.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_power.c; path = external/SDL2/src/power/SDL_power.c; sourceTree = SOURCE_ROOT; };
+		460EC1929ACF43FE9DFDEEB4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = imgui_impl_metal.mm; path = external/ImGUI/backends/imgui_impl_metal.mm; sourceTree = SOURCE_ROOT; };
+		482327367DCD42E8B67E1CBB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_sqrt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_sqrt.c; path = external/SDL2/src/libm/e_sqrt.c; sourceTree = SOURCE_ROOT; };
+		4A664ECA4B8E4142A814CD4C /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Predef.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Predef.hpp; path = framework/include/MiniKit/Foundation/Predef.hpp; sourceTree = SOURCE_ROOT; };
+		4AB060CCCAE848E6A7FCC2E9 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Platform/Window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Window.cpp; path = framework/src/Platform/Window.cpp; sourceTree = SOURCE_ROOT; };
+		4DBF00E235EC416B905BDF0F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_render.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render.c; path = external/SDL2/src/render/SDL_render.c; sourceTree = SOURCE_ROOT; };
+		50C1BE12D0474615B3AF2BA3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_dataqueue.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dataqueue.c; path = external/SDL2/src/SDL_dataqueue.c; sourceTree = SOURCE_ROOT; };
+		513593056E4E4201909F07FF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_1.c; path = external/SDL2/src/video/SDL_blit_1.c; sourceTree = SOURCE_ROOT; };
+		5216FD2306ED4C9583BC630C /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = framework/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5303E39CAD3844C28C0A4EFC /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Foundation/Error.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Error.cpp; path = framework/src/Foundation/Error.cpp; sourceTree = SOURCE_ROOT; };
+		53F87260F23D4C10917AA5BA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_getenv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_getenv.c; path = external/SDL2/src/stdlib/SDL_getenv.c; sourceTree = SOURCE_ROOT; };
+		5986CC59F5234F3BAE9A492B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/loadso/dlopen/SDL_sysloadso.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_sysloadso.c; path = external/SDL2/src/loadso/dlopen/SDL_sysloadso.c; sourceTree = SOURCE_ROOT; };
+		5A048D0AA718435584FBF3B7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_widgets.cpp; path = external/ImGUI/imgui_widgets.cpp; sourceTree = SOURCE_ROOT; };
+		5CA0589184EC41AA855267E1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_quit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_quit.c; path = external/SDL2/src/events/SDL_quit.c; sourceTree = SOURCE_ROOT; };
+		5CF74FB869A14C4186377A28 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_rotate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_rotate.c; path = external/SDL2/src/render/software/SDL_rotate.c; sourceTree = SOURCE_ROOT; };
+		5EA9D407D5BD4FB781927FB6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/metal/SDL_render_metal.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_render_metal.m; path = external/SDL2/src/render/metal/SDL_render_metal.m; sourceTree = SOURCE_ROOT; };
+		5F9B39B69B3C490CADE9B935 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = external/SDL2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6033EC01771A4CDDB636403D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullevents.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_nullevents.c; path = external/SDL2/src/video/dummy/SDL_nullevents.c; sourceTree = SOURCE_ROOT; };
+		64AFE6CF184E46608616FD0A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoavulkan.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoavulkan.m; path = external/SDL2/src/video/cocoa/SDL_cocoavulkan.m; sourceTree = SOURCE_ROOT; };
+		64B58A47AF814868AFDB7C1A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d/SDL_render_d3d.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_d3d.c; path = external/SDL2/src/render/direct3d/SDL_render_d3d.c; sourceTree = SOURCE_ROOT; };
+		67151E906FA9488AA0A67E13 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/file/SDL_rwops.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_rwops.c; path = external/SDL2/src/file/SDL_rwops.c; sourceTree = SOURCE_ROOT; };
+		678329B0848F40E382E798CE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_sysmutex.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_sysmutex.c; path = external/SDL2/src/thread/pthread/SDL_sysmutex.c; sourceTree = SOURCE_ROOT; };
+		678810BE65854E2598C498CD /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d/SDL_shaders_d3d.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_shaders_d3d.c; path = external/SDL2/src/render/direct3d/SDL_shaders_d3d.c; sourceTree = SOURCE_ROOT; };
+		6CCCC8BCC07240BDBA29E09D /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Macos/Context.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Context.mm; path = framework/src/Engine/Macos/Context.mm; sourceTree = SOURCE_ROOT; };
+		6D46531C4290428EA7BD2CA4 /* MiniKit.Framework */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMiniKit.Framework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8900D0A7674B01B1BFB480 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_clipboard.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_clipboard.c; path = external/SDL2/src/video/SDL_clipboard.c; sourceTree = SOURCE_ROOT; };
+		6F8C4A5B2C444A79A8D2E22B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/dummy/SDL_dummyaudio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dummyaudio.c; path = external/SDL2/src/audio/dummy/SDL_dummyaudio.c; sourceTree = SOURCE_ROOT; };
+		6FD20F81950E4F0FBE169E36 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_malloc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_malloc.c; path = external/SDL2/src/stdlib/SDL_malloc.c; sourceTree = SOURCE_ROOT; };
+		75AC40A6F32A45C3A67C559E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_keyboard.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_keyboard.c; path = external/SDL2/src/events/SDL_keyboard.c; sourceTree = SOURCE_ROOT; };
+		767C3CE071DD4B3B8368B9C3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamousetap.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoamousetap.m; path = external/SDL2/src/video/cocoa/SDL_cocoamousetap.m; sourceTree = SOURCE_ROOT; };
+		7885C3EA6F9E49C0882E46A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_systhread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_systhread.c; path = external/SDL2/src/thread/pthread/SDL_systhread.c; sourceTree = SOURCE_ROOT; };
+		78A6AF539B1A4E028B2680FE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoavideo.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoavideo.m; path = external/SDL2/src/video/cocoa/SDL_cocoavideo.m; sourceTree = SOURCE_ROOT; };
+		797AE3BF4C484A4FAA714E32 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Object.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Object.hpp; path = framework/include/MiniKit/Foundation/Object.hpp; sourceTree = SOURCE_ROOT; };
+		79E4BDCABA094821A3B7CDE5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d11/SDL_render_d3d11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_d3d11.c; path = external/SDL2/src/render/direct3d11/SDL_render_d3d11.c; sourceTree = SOURCE_ROOT; };
+		7B97FA1CC0654788835C8DE7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_tan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_tan.c; path = external/SDL2/src/libm/s_tan.c; sourceTree = SOURCE_ROOT; };
+		7BA7AC293856456EB50B194D /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Platform/Window.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Window.hpp; path = framework/src/Platform/Window.hpp; sourceTree = SOURCE_ROOT; };
+		7C27D814A36947E390454CF2 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_string.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_string.c; path = external/SDL2/src/stdlib/SDL_string.c; sourceTree = SOURCE_ROOT; };
+		7C76AEE1AB144D7B8F57663D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_shape.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_shape.c; path = external/SDL2/src/video/SDL_shape.c; sourceTree = SOURCE_ROOT; };
+		7CD825F21F4B41A2B3D1F822 /* SDL2-static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDL2d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8EB7314C034F73940C22B6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullvideo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_nullvideo.c; path = external/SDL2/src/video/dummy/SDL_nullvideo.c; sourceTree = SOURCE_ROOT; };
+		82045008031A4D789AA6E5C8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_floor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_floor.c; path = external/SDL2/src/libm/s_floor.c; sourceTree = SOURCE_ROOT; };
+		8506EFAF1140447C97F56E10 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_atan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_atan.c; path = external/SDL2/src/libm/s_atan.c; sourceTree = SOURCE_ROOT; };
+		85D292FD213C47429B517305 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/dynapi/SDL_dynapi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_dynapi.c; path = external/SDL2/src/dynapi/SDL_dynapi.c; sourceTree = SOURCE_ROOT; };
+		8638C6E97D134788B7139E4A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/atomic/SDL_spinlock.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_spinlock.c; path = external/SDL2/src/atomic/SDL_spinlock.c; sourceTree = SOURCE_ROOT; };
+		86D4406D21EF4AF49CA29C25 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/SDL_syshaptic.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_syshaptic.c; path = external/SDL2/src/haptic/darwin/SDL_syshaptic.c; sourceTree = SOURCE_ROOT; };
+		8850410CB6364978BC0C6C1B /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Responder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Responder.hpp; path = framework/include/MiniKit/Platform/Responder.hpp; sourceTree = SOURCE_ROOT; };
+		886E9F1DB0DD40CEBD7FC375 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/CommandBuffer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CommandBuffer.hpp; path = framework/include/MiniKit/Graphics/CommandBuffer.hpp; sourceTree = SOURCE_ROOT; };
+		88953C22022349D7822D2678 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_bmp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_bmp.c; path = external/SDL2/src/video/SDL_bmp.c; sourceTree = SOURCE_ROOT; };
+		8BD358BE7F5B4825B7CE405C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = external/ImGUI/imgui_draw.cpp; sourceTree = SOURCE_ROOT; };
+		8C05F4FAF28F4998AEF7C532 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_mixer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_mixer.c; path = external/SDL2/src/audio/SDL_mixer.c; sourceTree = SOURCE_ROOT; };
+		8C78EE5F30664618A7EB9F19 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Engine/Context.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Context.hpp; path = framework/include/MiniKit/Engine/Context.hpp; sourceTree = SOURCE_ROOT; };
+		8E1F8576143C49DD8AB345F4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_d3dmath.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_d3dmath.c; path = external/SDL2/src/render/SDL_d3dmath.c; sourceTree = SOURCE_ROOT; };
+		8ED355311E0C4C1EB7EBEC1E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = external/SDL2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8FB8105062684ED080A9DCF6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/timer/SDL_timer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_timer.c; path = external/SDL2/src/timer/SDL_timer.c; sourceTree = SOURCE_ROOT; };
+		9092A6A8C89C4CD4A6835359 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Device.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Device.hpp; path = framework/src/Graphics/Device.hpp; sourceTree = SOURCE_ROOT; };
+		91EE3E306FF849ECBF7D0730 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/filesystem/cocoa/SDL_sysfilesystem.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_sysfilesystem.m; path = external/SDL2/src/filesystem/cocoa/SDL_sysfilesystem.m; sourceTree = SOURCE_ROOT; };
+		92D9BAA6A62F4C91B7126FEB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/SDL_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_thread.c; path = external/SDL2/src/thread/SDL_thread.c; sourceTree = SOURCE_ROOT; };
+		936C53EBAD694559A04CF07F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = external/ImGUI/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		95094AB4DF6C46BC820D170D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_sin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_sin.c; path = external/SDL2/src/libm/s_sin.c; sourceTree = SOURCE_ROOT; };
+		956D4D3A00EB458FBB9DD2A0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/yuv2rgb/yuv_rgb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_rgb.c; path = external/SDL2/src/video/yuv2rgb/yuv_rgb.c; sourceTree = SOURCE_ROOT; };
+		95DE98CDD4274FF9AE4EE9EB /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Image.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = Image.mm; path = framework/src/Graphics/Metal/Image.mm; sourceTree = SOURCE_ROOT; };
+		95E2615F307D4A7C9AD2CB90 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_fmod.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_fmod.c; path = external/SDL2/src/libm/e_fmod.c; sourceTree = SOURCE_ROOT; };
+		98095F1F64DA457BB4E1C9A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/psp/SDL_render_psp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_psp.c; path = external/SDL2/src/render/psp/SDL_render_psp.c; sourceTree = SOURCE_ROOT; };
+		9B31F1A17AA5463EA06CEF53 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Context.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Context.cpp; path = framework/src/Engine/Context.cpp; sourceTree = SOURCE_ROOT; };
+		9DE080B217984156A20E37A9 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Noncopyable.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Noncopyable.hpp; path = framework/include/MiniKit/Foundation/Noncopyable.hpp; sourceTree = SOURCE_ROOT; };
+		9EB4D9ABD243415EB97610F0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoakeyboard.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoakeyboard.m; path = external/SDL2/src/video/cocoa/SDL_cocoakeyboard.m; sourceTree = SOURCE_ROOT; };
+		9ED5C33CBE594DC7AB73C09F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoashape.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoashape.m; path = external/SDL2/src/video/cocoa/SDL_cocoashape.m; sourceTree = SOURCE_ROOT; };
+		9F8B7BE3F6A44EACB6A3E0BA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_drawline.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_drawline.c; path = external/SDL2/src/render/software/SDL_drawline.c; sourceTree = SOURCE_ROOT; };
+		A206FAB3308D410F9CA580A1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_cos.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_cos.c; path = external/SDL2/src/libm/s_cos.c; sourceTree = SOURCE_ROOT; };
+		A3FE8C0E932145A49DBD0264 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit.c; path = external/SDL2/src/video/SDL_blit.c; sourceTree = SOURCE_ROOT; };
+		A4D5FB50E5B044C19B681802 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/CommandBuffer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CommandBuffer.hpp; path = framework/src/Graphics/Metal/CommandBuffer.hpp; sourceTree = SOURCE_ROOT; };
+		A4F5B325D4B84335B05A3C9F /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Image.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Image.hpp; path = framework/include/MiniKit/Graphics/Image.hpp; sourceTree = SOURCE_ROOT; };
+		A51C033098DC47DCB8897CA5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/power/macosx/SDL_syspower.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_syspower.c; path = external/SDL2/src/power/macosx/SDL_syspower.c; sourceTree = SOURCE_ROOT; };
+		A5E878790BD74B288D9E5131 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_assert.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_assert.c; path = external/SDL2/src/SDL_assert.c; sourceTree = SOURCE_ROOT; };
+		A5F0B8F5B46E43B2BC191B25 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_mouse.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_mouse.c; path = external/SDL2/src/events/SDL_mouse.c; sourceTree = SOURCE_ROOT; };
+		A617723D95664B118A9E2FD5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendpoint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blendpoint.c; path = external/SDL2/src/render/software/SDL_blendpoint.c; sourceTree = SOURCE_ROOT; };
+		A6821C5E21A04D0BB4AF375A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_events.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_events.c; path = external/SDL2/src/events/SDL_events.c; sourceTree = SOURCE_ROOT; };
+		A8247E872B4A4DC09A1AB70B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/darwin/SDL_sysjoystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_sysjoystick.c; path = external/SDL2/src/joystick/darwin/SDL_sysjoystick.c; sourceTree = SOURCE_ROOT; };
+		ABDC5F7B5D0A44A7A0D5447D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_fabs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_fabs.c; path = external/SDL2/src/libm/s_fabs.c; sourceTree = SOURCE_ROOT; };
+		B4AC18CEFFAD4DBC9C77E3C6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_render_sw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_sw.c; path = external/SDL2/src/render/software/SDL_render_sw.c; sourceTree = SOURCE_ROOT; };
+		B50E7F74C1BE4B9289CDB7E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Context.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Context.hpp; path = framework/src/Engine/Context.hpp; sourceTree = SOURCE_ROOT; };
+		B5616979037149D09561D670 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_surface.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_surface.c; path = external/SDL2/src/video/SDL_surface.c; sourceTree = SOURCE_ROOT; };
+		B68D38BBC48540E09F144939 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_rect.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_rect.c; path = external/SDL2/src/video/SDL_rect.c; sourceTree = SOURCE_ROOT; };
+		B69C0DCD4956497BAF229789 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_systls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_systls.c; path = external/SDL2/src/thread/pthread/SDL_systls.c; sourceTree = SOURCE_ROOT; };
+		BA3AD2A2005F4138A86A5FA6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_scalbn.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s_scalbn.c; path = external/SDL2/src/libm/s_scalbn.c; sourceTree = SOURCE_ROOT; };
+		BA71D2BBE87848FDBA668F51 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_impl_metal.h; path = external/ImGUI/backends/imgui_impl_metal.h; sourceTree = SOURCE_ROOT; };
+		BB373D9DDC444917831068F8 /* /Users/losik/Downloads/UcodePuzzle/minikit/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BD2C43BCFE9E4A3E80C80982 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_tan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = k_tan.c; path = external/SDL2/src/libm/k_tan.c; sourceTree = SOURCE_ROOT; };
+		BDC28A6EF7E64DBA86C6A865 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Window.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Window.hpp; path = framework/include/MiniKit/Platform/Window.hpp; sourceTree = SOURCE_ROOT; };
+		C09983D93C2642C68595A88E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_vulkan_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_vulkan_utils.c; path = external/SDL2/src/video/SDL_vulkan_utils.c; sourceTree = SOURCE_ROOT; };
+		C3E089EE6973467D8882058E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_RLEaccel.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_RLEaccel.c; path = external/SDL2/src/video/SDL_RLEaccel.c; sourceTree = SOURCE_ROOT; };
+		C6B7C37F650C48549AF920B8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_yuv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_yuv.c; path = external/SDL2/src/video/SDL_yuv.c; sourceTree = SOURCE_ROOT; };
+		C6C287A14D954050BE7CC78A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/disk/SDL_diskaudio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_diskaudio.c; path = external/SDL2/src/audio/disk/SDL_diskaudio.c; sourceTree = SOURCE_ROOT; };
+		C6FADEC20F9B4B4B8E1FC5A7 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Image.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Image.hpp; path = framework/src/Graphics/Metal/Image.hpp; sourceTree = SOURCE_ROOT; };
+		C88B0A9C53AF4174A5F7786D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/sensor/SDL_sensor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_sensor.c; path = external/SDL2/src/sensor/SDL_sensor.c; sourceTree = SOURCE_ROOT; };
+		CC6BCACFC7204C88B769438F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_log.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_log.c; path = external/SDL2/src/SDL_log.c; sourceTree = SOURCE_ROOT; };
+		CC72622F20834A4CA7BF1D7E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengl/SDL_render_gl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_gl.c; path = external/SDL2/src/render/opengl/SDL_render_gl.c; sourceTree = SOURCE_ROOT; };
+		CC79F65876DC43718F3B0EA3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_0.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_0.c; path = external/SDL2/src/video/SDL_blit_0.c; sourceTree = SOURCE_ROOT; };
+		CC8A57D5950C4838A43CE968 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Image.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Image.hpp; path = framework/src/Graphics/Image.hpp; sourceTree = SOURCE_ROOT; };
+		CD03DC76CD7E4EE8BC346D7C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_qsort.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_qsort.c; path = external/SDL2/src/stdlib/SDL_qsort.c; sourceTree = SOURCE_ROOT; };
+		CF73A64FF126452FB386F582 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaclipboard.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoaclipboard.m; path = external/SDL2/src/video/cocoa/SDL_cocoaclipboard.m; sourceTree = SOURCE_ROOT; };
+		D15592004C424FD2BFBD5FDA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d11/SDL_shaders_d3d11.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_shaders_d3d11.c; path = external/SDL2/src/render/direct3d11/SDL_shaders_d3d11.c; sourceTree = SOURCE_ROOT; };
+		D425E950DF594B099A7653C3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = external/ImGUI/imgui.cpp; sourceTree = SOURCE_ROOT; };
+		D6328F99EEED47E591EE4168 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/DeviceSubObject.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = DeviceSubObject.hpp; path = framework/include/MiniKit/Graphics/DeviceSubObject.hpp; sourceTree = SOURCE_ROOT; };
+		D6CA04C3D7E04A218068B5AE /* ImGui */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libImGui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7818E99586A426BB55EAD7D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles/SDL_render_gles.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_render_gles.c; path = external/SDL2/src/render/opengles/SDL_render_gles.c; sourceTree = SOURCE_ROOT; };
+		DCAEE62B0A3C4C639536D27C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengl/SDL_shaders_gl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_shaders_gl.c; path = external/SDL2/src/render/opengl/SDL_shaders_gl.c; sourceTree = SOURCE_ROOT; };
+		DE34840CF7AB42D796E2DFEA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullframebuffer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_nullframebuffer.c; path = external/SDL2/src/video/dummy/SDL_nullframebuffer.c; sourceTree = SOURCE_ROOT; };
+		DF8EC65A67014EF0AA69F7A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_clipboardevents.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_clipboardevents.c; path = external/SDL2/src/events/SDL_clipboardevents.c; sourceTree = SOURCE_ROOT; };
+		DFF7C5CB0D2548F59FCF6868 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Device.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Device.hpp; path = framework/src/Graphics/Metal/Device.hpp; sourceTree = SOURCE_ROOT; };
+		E1146F253EB940829FD31D5F /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Error.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Error.hpp; path = framework/include/MiniKit/Foundation/Error.hpp; sourceTree = SOURCE_ROOT; };
+		E1E0942E549143C5BFDC1EC9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaopengles.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoaopengles.m; path = external/SDL2/src/video/cocoa/SDL_cocoaopengles.m; sourceTree = SOURCE_ROOT; };
+		E1F4AAD4F9544FF5A00ECDFF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_gesture.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_gesture.c; path = external/SDL2/src/events/SDL_gesture.c; sourceTree = SOURCE_ROOT; };
+		E5552FD25AF74AD7AA5D5A4D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL.c; path = external/SDL2/src/SDL.c; sourceTree = SOURCE_ROOT; };
+		E6A08FCA24F8412EA1B5274E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendline.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blendline.c; path = external/SDL2/src/render/software/SDL_blendline.c; sourceTree = SOURCE_ROOT; };
+		E72C28CB67C44D9EADF22757 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_fillrect.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_fillrect.c; path = external/SDL2/src/video/SDL_fillrect.c; sourceTree = SOURCE_ROOT; };
+		E7CE2125C24449BFB44BEFC8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamessagebox.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoamessagebox.m; path = external/SDL2/src/video/cocoa/SDL_cocoamessagebox.m; sourceTree = SOURCE_ROOT; };
+		EA51800D05084C748CB1CB4C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_copy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_blit_copy.c; path = external/SDL2/src/video/SDL_blit_copy.c; sourceTree = SOURCE_ROOT; };
+		EBC2DF36FCF54FF1AE0722D0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_sdl.cpp; path = external/ImGUI/backends/imgui_impl_sdl.cpp; sourceTree = SOURCE_ROOT; };
+		EE520029642D48B49D3762EC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_video.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_video.c; path = external/SDL2/src/video/SDL_video.c; sourceTree = SOURCE_ROOT; };
+		EE949627FE6F45E992B1D364 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_rem_pio2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = k_rem_pio2.c; path = external/SDL2/src/libm/k_rem_pio2.c; sourceTree = SOURCE_ROOT; };
+		EF80108663FC489F87BD8A02 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/file/cocoa/SDL_rwopsbundlesupport.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_rwopsbundlesupport.m; path = external/SDL2/src/file/cocoa/SDL_rwopsbundlesupport.m; sourceTree = SOURCE_ROOT; };
+		F01BD82E41AC43A6BE2FF9EA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_rem_pio2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = e_rem_pio2.c; path = external/SDL2/src/libm/e_rem_pio2.c; sourceTree = SOURCE_ROOT; };
+		F0D09193CC5C4BA687D76CA2 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Mouse.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Mouse.hpp; path = framework/include/MiniKit/Platform/Mouse.hpp; sourceTree = SOURCE_ROOT; };
+		F0FD4DE996124D23B4CFBB16 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = external/SDL2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F892698431FD415594F53070 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_strtokr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_strtokr.c; path = external/SDL2/src/stdlib/SDL_strtokr.c; sourceTree = SOURCE_ROOT; };
+		FAC48B67BEC3475EB32332C0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_audio.c; path = external/SDL2/src/audio/SDL_audio.c; sourceTree = SOURCE_ROOT; };
+		FBC8B29759BD482D89280F2C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/SDL_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_joystick.c; path = external/SDL2/src/joystick/SDL_joystick.c; sourceTree = SOURCE_ROOT; };
+		FC77F7E89E524E80B61BD3E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_egl.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_egl.c; path = external/SDL2/src/video/SDL_egl.c; sourceTree = SOURCE_ROOT; };
+		FD210D63F59941B2AB108135 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_stdlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_stdlib.c; path = external/SDL2/src/stdlib/SDL_stdlib.c; sourceTree = SOURCE_ROOT; };
+		FD4438F01A194782A6C9D878 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiotypecvt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_audiotypecvt.c; path = external/SDL2/src/audio/SDL_audiotypecvt.c; sourceTree = SOURCE_ROOT; };
+		FD989C4116F444978AB2BFC3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoametalview.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = SDL_cocoametalview.m; path = external/SDL2/src/video/cocoa/SDL_cocoametalview.m; sourceTree = SOURCE_ROOT; };
+		FE6E2735975242B69CA05F85 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_stretch.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_stretch.c; path = external/SDL2/src/video/SDL_stretch.c; sourceTree = SOURCE_ROOT; };
+		FEBCBF4FD9E9448BA022BCCC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_displayevents.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_displayevents.c; path = external/SDL2/src/events/SDL_displayevents.c; sourceTree = SOURCE_ROOT; };
+		FF6E18A80EAF48FCB182F6F4 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Engine/ContextSubObject.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ContextSubObject.hpp; path = framework/include/MiniKit/Engine/ContextSubObject.hpp; sourceTree = SOURCE_ROOT; };
+		FFA0DA8F9069422998D9E53B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_yuv_sw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = SDL_yuv_sw.c; path = external/SDL2/src/render/SDL_yuv_sw.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FD56B1F87942D89D6ACDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6154CA9451004C938D5892A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B426312B7D94BA2947ADDD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB217A512D4472DA2D45C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B419511A434206A43BB17F /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				3F2569927D8A43668F74BEB0 /* Macos */,
+				9B31F1A17AA5463EA06CEF53 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Context.cpp */,
+				B50E7F74C1BE4B9289CDB7E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Context.hpp */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		0289ECD0206F4518A3CEFDB5 /* MiniKit */ = {
+			isa = PBXGroup;
+			children = (
+				CDDD0278B8DF45439CC295DF /* Foundation */,
+				CC776611264F40C89A7702A6 /* Engine */,
+				85B18EDF5BFD452EAFFE7D84 /* Graphics */,
+				FC396A7103904919B37588DF /* Platform */,
+				317F02A0694B41199C6A12FC /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/MiniKit.hpp */,
+			);
+			name = MiniKit;
+			sourceTree = "<group>";
+		};
+		0664FED8136C4F4C9B1D92AB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				460EC1929ACF43FE9DFDEEB4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.mm */,
+				EBC2DF36FCF54FF1AE0722D0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.cpp */,
+				D425E950DF594B099A7653C3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.cpp */,
+				4076DDB7DFA948E5A37D475B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_demo.cpp */,
+				8BD358BE7F5B4825B7CE405C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_draw.cpp */,
+				5A048D0AA718435584FBF3B7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_widgets.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		09539C23517A432DBE5A25D2 /* SDL2main */ = {
+			isa = PBXGroup;
+			children = (
+				393477217EBE4343A1FCD3C3 /* Source Files */,
+				8ED355311E0C4C1EB7EBEC1E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/CMakeLists.txt */,
+			);
+			name = SDL2main;
+			sourceTree = "<group>";
+		};
+		0DDEC41CF0E7495DAB369647 /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				A4D5FB50E5B044C19B681802 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/CommandBuffer.hpp */,
+				21E0C2698AAC45B4B121274B /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/CommandBuffer.mm */,
+				DFF7C5CB0D2548F59FCF6868 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Device.hpp */,
+				17BFAC9F8FEE4A7986F1141D /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Device.mm */,
+				C6FADEC20F9B4B4B8E1FC5A7 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Image.hpp */,
+				95DE98CDD4274FF9AE4EE9EB /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Image.mm */,
+			);
+			name = Metal;
+			sourceTree = "<group>";
+		};
+		1D0F33C345F24009B171ED62 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0289ECD0206F4518A3CEFDB5 /* MiniKit */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		1E19E62D60EB4382B6175C99 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				4AB060CCCAE848E6A7FCC2E9 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Platform/Window.cpp */,
+				7BA7AC293856456EB50B194D /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Platform/Window.hpp */,
+			);
+			name = Platform;
+			sourceTree = "<group>";
+		};
+		393477217EBE4343A1FCD3C3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ED7AE2C538C418DB349A8CB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/main/dummy/SDL_dummy_main.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3F2569927D8A43668F74BEB0 /* Macos */ = {
+			isa = PBXGroup;
+			children = (
+				6CCCC8BCC07240BDBA29E09D /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Macos/Context.mm */,
+			);
+			name = Macos;
+			sourceTree = "<group>";
+		};
+		63361B275B474505B497FB7A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA71D2BBE87848FDBA668F51 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.h */,
+				3800F9E6E4AF46AE84DAD2E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.h */,
+				0BF88547557C4CCA8D0FDCA3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6B4B564BD40940B6A63EC2A0 /* SDL2-static */ = {
+			isa = PBXGroup;
+			children = (
+				C21B919CE7BB4011801D73B1 /* Source Files */,
+				5F9B39B69B3C490CADE9B935 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/CMakeLists.txt */,
+			);
+			name = "SDL2-static";
+			sourceTree = "<group>";
+		};
+		75906E32EFCC4449A1EDE2F5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9A73A6C91BA44619AC06002C /* CMake Rules */,
+				BB373D9DDC444917831068F8 /* /Users/losik/Downloads/UcodePuzzle/minikit/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		85B18EDF5BFD452EAFFE7D84 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				886E9F1DB0DD40CEBD7FC375 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/CommandBuffer.hpp */,
+				425D6F86513E4050B00813B0 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Device.hpp */,
+				D6328F99EEED47E591EE4168 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/DeviceSubObject.hpp */,
+				A4F5B325D4B84335B05A3C9F /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Image.hpp */,
+				1A2E288264C6437A82EDC412 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Graphics/Numerics.hpp */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		87B331AF978040A3BB4980EB = {
+			isa = PBXGroup;
+			children = (
+				75906E32EFCC4449A1EDE2F5 /* ALL_BUILD */,
+				B126EEB1BC6B4E44B650C733 /* uninstall */,
+				6B4B564BD40940B6A63EC2A0 /* SDL2-static */,
+				09539C23517A432DBE5A25D2 /* SDL2main */,
+				A24F76F328F04517BE2173A9 /* ImGui */,
+				C4D2B9EB74DA40D5B7A8FF58 /* MiniKit.Framework */,
+				D0C1D97787B043F2AE32E0A2 /* Products */,
+				E4FD33A32023489987022D21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A73A6C91BA44619AC06002C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A24F76F328F04517BE2173A9 /* ImGui */ = {
+			isa = PBXGroup;
+			children = (
+				63361B275B474505B497FB7A /* Header Files */,
+				0664FED8136C4F4C9B1D92AB /* Source Files */,
+				936C53EBAD694559A04CF07F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt */,
+			);
+			name = ImGui;
+			sourceTree = "<group>";
+		};
+		B126EEB1BC6B4E44B650C733 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				ED2312584D6A418D82AC3ED5 /* CMake Rules */,
+				F0FD4DE996124D23B4CFBB16 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		C095278A44E24173A04EFB0D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC878177222641F3BB96DCFE /* Foundation */,
+				01B419511A434206A43BB17F /* Engine */,
+				EB530F0E91B147DF82F5F8C6 /* Graphics */,
+				1E19E62D60EB4382B6175C99 /* Platform */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C21B919CE7BB4011801D73B1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5552FD25AF74AD7AA5D5A4D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL.c */,
+				A5E878790BD74B288D9E5131 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_assert.c */,
+				50C1BE12D0474615B3AF2BA3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_dataqueue.c */,
+				255D7FFE25704089BD9758B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_error.c */,
+				1000DFF6D42447EF9522F45D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_hints.c */,
+				CC6BCACFC7204C88B769438F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_log.c */,
+				4348984C5A4D46F2B0F508B0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/atomic/SDL_atomic.c */,
+				8638C6E97D134788B7139E4A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/atomic/SDL_spinlock.c */,
+				FAC48B67BEC3475EB32332C0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audio.c */,
+				1AAEF2B1E39D4A3FBDD7B2ED /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiocvt.c */,
+				3033BEA0CD45469F9CBC5F29 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiodev.c */,
+				FD4438F01A194782A6C9D878 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiotypecvt.c */,
+				8C05F4FAF28F4998AEF7C532 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_mixer.c */,
+				2855AFF7F77F4E3392824A98 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_wave.c */,
+				2A6B3A720C83454AB6347E94 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/coreaudio/SDL_coreaudio.m */,
+				C6C287A14D954050BE7CC78A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/disk/SDL_diskaudio.c */,
+				6F8C4A5B2C444A79A8D2E22B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/dummy/SDL_dummyaudio.c */,
+				3B81310C433C4CF6A3572E07 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/cpuinfo/SDL_cpuinfo.c */,
+				85D292FD213C47429B517305 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/dynapi/SDL_dynapi.c */,
+				DF8EC65A67014EF0AA69F7A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_clipboardevents.c */,
+				FEBCBF4FD9E9448BA022BCCC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_displayevents.c */,
+				41F72BAD97F84AD2B4B6D89F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_dropevents.c */,
+				A6821C5E21A04D0BB4AF375A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_events.c */,
+				E1F4AAD4F9544FF5A00ECDFF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_gesture.c */,
+				75AC40A6F32A45C3A67C559E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_keyboard.c */,
+				A5F0B8F5B46E43B2BC191B25 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_mouse.c */,
+				5CA0589184EC41AA855267E1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_quit.c */,
+				245DDA43E16A45BCA0032A17 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_touch.c */,
+				00E7F4B201D24EA58881141E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_windowevents.c */,
+				67151E906FA9488AA0A67E13 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/file/SDL_rwops.c */,
+				EF80108663FC489F87BD8A02 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/file/cocoa/SDL_rwopsbundlesupport.m */,
+				91EE3E306FF849ECBF7D0730 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/filesystem/cocoa/SDL_sysfilesystem.m */,
+				0FDA786D26A64C2DBBC343A0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/SDL_haptic.c */,
+				86D4406D21EF4AF49CA29C25 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/SDL_syshaptic.c */,
+				069F4E09C3FF4977A6B8D948 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/SDL_gamecontroller.c */,
+				FBC8B29759BD482D89280F2C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/SDL_joystick.c */,
+				A8247E872B4A4DC09A1AB70B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/darwin/SDL_sysjoystick.c */,
+				3EF54E74A23D4B37BC44B1AF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_atan2.c */,
+				1E21DB0096E84ABEBB076333 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_exp.c */,
+				95E2615F307D4A7C9AD2CB90 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_fmod.c */,
+				312C057D7509428789B4154B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_log.c */,
+				134134C9497D4130A04E198A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_log10.c */,
+				4531504926364A5196B81283 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_pow.c */,
+				F01BD82E41AC43A6BE2FF9EA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_rem_pio2.c */,
+				482327367DCD42E8B67E1CBB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_sqrt.c */,
+				23B2D3F9BD3A41C689175E40 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_cos.c */,
+				EE949627FE6F45E992B1D364 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_rem_pio2.c */,
+				0B1ECA1F9DA54DAF8DEA1076 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_sin.c */,
+				BD2C43BCFE9E4A3E80C80982 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_tan.c */,
+				8506EFAF1140447C97F56E10 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_atan.c */,
+				16426A9EAEA7482896226AF0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_copysign.c */,
+				A206FAB3308D410F9CA580A1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_cos.c */,
+				ABDC5F7B5D0A44A7A0D5447D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_fabs.c */,
+				82045008031A4D789AA6E5C8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_floor.c */,
+				BA3AD2A2005F4138A86A5FA6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_scalbn.c */,
+				95094AB4DF6C46BC820D170D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_sin.c */,
+				7B97FA1CC0654788835C8DE7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_tan.c */,
+				5986CC59F5234F3BAE9A492B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/loadso/dlopen/SDL_sysloadso.c */,
+				45395AD01FEE4A54ABBD9E8A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/power/SDL_power.c */,
+				A51C033098DC47DCB8897CA5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/power/macosx/SDL_syspower.c */,
+				8E1F8576143C49DD8AB345F4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_d3dmath.c */,
+				4DBF00E235EC416B905BDF0F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_render.c */,
+				FFA0DA8F9069422998D9E53B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_yuv_sw.c */,
+				64B58A47AF814868AFDB7C1A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d/SDL_render_d3d.c */,
+				678810BE65854E2598C498CD /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d/SDL_shaders_d3d.c */,
+				79E4BDCABA094821A3B7CDE5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d11/SDL_render_d3d11.c */,
+				D15592004C424FD2BFBD5FDA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d11/SDL_shaders_d3d11.c */,
+				5EA9D407D5BD4FB781927FB6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/metal/SDL_render_metal.m */,
+				CC72622F20834A4CA7BF1D7E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengl/SDL_render_gl.c */,
+				DCAEE62B0A3C4C639536D27C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengl/SDL_shaders_gl.c */,
+				D7818E99586A426BB55EAD7D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles/SDL_render_gles.c */,
+				07DE1B53A4E14195A13820C1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles2/SDL_render_gles2.c */,
+				140C851E51C64B499C079086 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles2/SDL_shaders_gles2.c */,
+				98095F1F64DA457BB4E1C9A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/psp/SDL_render_psp.c */,
+				169C6DC62F59408988C63755 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendfillrect.c */,
+				E6A08FCA24F8412EA1B5274E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendline.c */,
+				A617723D95664B118A9E2FD5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendpoint.c */,
+				9F8B7BE3F6A44EACB6A3E0BA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_drawline.c */,
+				352E56BA4F994C69A33E3C32 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_drawpoint.c */,
+				B4AC18CEFFAD4DBC9C77E3C6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_render_sw.c */,
+				5CF74FB869A14C4186377A28 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_rotate.c */,
+				C88B0A9C53AF4174A5F7786D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/sensor/SDL_sensor.c */,
+				442F45F40F1C43B588EEB02E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/sensor/dummy/SDL_dummysensor.c */,
+				53F87260F23D4C10917AA5BA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_getenv.c */,
+				1C75912919A9412AA627B074 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_iconv.c */,
+				6FD20F81950E4F0FBE169E36 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_malloc.c */,
+				CD03DC76CD7E4EE8BC346D7C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_qsort.c */,
+				FD210D63F59941B2AB108135 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_stdlib.c */,
+				7C27D814A36947E390454CF2 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_string.c */,
+				F892698431FD415594F53070 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_strtokr.c */,
+				92D9BAA6A62F4C91B7126FEB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/SDL_thread.c */,
+				3FE73328EE984560B37D06EE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_syscond.c */,
+				678329B0848F40E382E798CE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_sysmutex.c */,
+				2FAA5E32953141B2BE503712 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_syssem.c */,
+				7885C3EA6F9E49C0882E46A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_systhread.c */,
+				B69C0DCD4956497BAF229789 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_systls.c */,
+				8FB8105062684ED080A9DCF6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/timer/SDL_timer.c */,
+				10ECAADA129A40C78031110B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/timer/unix/SDL_systimer.c */,
+				C3E089EE6973467D8882058E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_RLEaccel.c */,
+				A3FE8C0E932145A49DBD0264 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit.c */,
+				CC79F65876DC43718F3B0EA3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_0.c */,
+				513593056E4E4201909F07FF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_1.c */,
+				3F111B6C84C447A5BB8A3745 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_A.c */,
+				386683EB6335444D9FE5C266 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_N.c */,
+				2E51696DC75D4290983C2DD9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_auto.c */,
+				EA51800D05084C748CB1CB4C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_copy.c */,
+				1371669C20964809BE71C4BF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_slow.c */,
+				88953C22022349D7822D2678 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_bmp.c */,
+				6F8900D0A7674B01B1BFB480 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_clipboard.c */,
+				FC77F7E89E524E80B61BD3E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_egl.c */,
+				E72C28CB67C44D9EADF22757 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_fillrect.c */,
+				33013201368B4F54AA1DB8CC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_pixels.c */,
+				B68D38BBC48540E09F144939 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_rect.c */,
+				7C76AEE1AB144D7B8F57663D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_shape.c */,
+				FE6E2735975242B69CA05F85 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_stretch.c */,
+				B5616979037149D09561D670 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_surface.c */,
+				EE520029642D48B49D3762EC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_video.c */,
+				C09983D93C2642C68595A88E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_vulkan_utils.c */,
+				C6B7C37F650C48549AF920B8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_yuv.c */,
+				CF73A64FF126452FB386F582 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaclipboard.m */,
+				42C74AC8B4304AB9B50588C7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaevents.m */,
+				9EB4D9ABD243415EB97610F0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoakeyboard.m */,
+				E7CE2125C24449BFB44BEFC8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamessagebox.m */,
+				FD989C4116F444978AB2BFC3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoametalview.m */,
+				1747AE1B7BC24ADBAF5908AF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamodes.m */,
+				40E5DFDC590F4396847F5D4F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamouse.m */,
+				767C3CE071DD4B3B8368B9C3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamousetap.m */,
+				06DDEC081C7E4621989EA5A6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaopengl.m */,
+				E1E0942E549143C5BFDC1EC9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaopengles.m */,
+				9ED5C33CBE594DC7AB73C09F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoashape.m */,
+				78A6AF539B1A4E028B2680FE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoavideo.m */,
+				64AFE6CF184E46608616FD0A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoavulkan.m */,
+				30DEA0F2ED9A4FD69FE6B39F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoawindow.m */,
+				6033EC01771A4CDDB636403D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullevents.c */,
+				DE34840CF7AB42D796E2DFEA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullframebuffer.c */,
+				7D8EB7314C034F73940C22B6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullvideo.c */,
+				956D4D3A00EB458FBB9DD2A0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/yuv2rgb/yuv_rgb.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C4D2B9EB74DA40D5B7A8FF58 /* MiniKit.Framework */ = {
+			isa = PBXGroup;
+			children = (
+				1D0F33C345F24009B171ED62 /* Header Files */,
+				C095278A44E24173A04EFB0D /* Source Files */,
+				5216FD2306ED4C9583BC630C /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/CMakeLists.txt */,
+			);
+			name = MiniKit.Framework;
+			sourceTree = "<group>";
+		};
+		CC776611264F40C89A7702A6 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				8C78EE5F30664618A7EB9F19 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Engine/Context.hpp */,
+				FF6E18A80EAF48FCB182F6F4 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Engine/ContextSubObject.hpp */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		CDDD0278B8DF45439CC295DF /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				E1146F253EB940829FD31D5F /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Error.hpp */,
+				9DE080B217984156A20E37A9 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Noncopyable.hpp */,
+				797AE3BF4C484A4FAA714E32 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Object.hpp */,
+				4A664ECA4B8E4142A814CD4C /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Foundation/Predef.hpp */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		D0C1D97787B043F2AE32E0A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CA04C3D7E04A218068B5AE /* ImGui */,
+				6D46531C4290428EA7BD2CA4 /* MiniKit.Framework */,
+				7CD825F21F4B41A2B3D1F822 /* SDL2-static */,
+				2DF39733DD5F4AE8BCF167F6 /* SDL2main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4FD33A32023489987022D21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB530F0E91B147DF82F5F8C6 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				0DDEC41CF0E7495DAB369647 /* Metal */,
+				3868B54B97A44802A8866CE1 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/CommandBuffer.hpp */,
+				9092A6A8C89C4CD4A6835359 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Device.hpp */,
+				CC8A57D5950C4838A43CE968 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Image.hpp */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		ED2312584D6A418D82AC3ED5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FC396A7103904919B37588DF /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				392EEDF1147E48F3ACC509F0 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Keyboard.hpp */,
+				F0D09193CC5C4BA687D76CA2 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Mouse.hpp */,
+				8850410CB6364978BC0C6C1B /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Responder.hpp */,
+				BDC28A6EF7E64DBA86C6A865 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/include/MiniKit/Platform/Window.hpp */,
+			);
+			name = Platform;
+			sourceTree = "<group>";
+		};
+		FC878177222641F3BB96DCFE /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				5303E39CAD3844C28C0A4EFC /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Foundation/Error.cpp */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9009C9A475974821BE21F6AA /* SDL2main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FDCB02A004242928084AFA2 /* Build configuration list for PBXNativeTarget "SDL2main" */;
+			buildPhases = (
+				30818DB6FD1546F0B21209C7 /* Sources */,
+				ADB217A512D4472DA2D45C72 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDL2main;
+			productName = SDL2main;
+			productReference = 2DF39733DD5F4AE8BCF167F6 /* SDL2main */;
+			productType = "com.apple.product-type.library.static";
+		};
+		996762F22BEA4B6395419B97 /* MiniKit.Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55EADD1D09F49438F9B19B5 /* Build configuration list for PBXNativeTarget "MiniKit.Framework" */;
+			buildPhases = (
+				97383C5774854358A96A8ECB /* Sources */,
+				6154CA9451004C938D5892A9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C2E71A2BC8F4D61BD949288 /* PBXTargetDependency */,
+				B5C2508A71E041F9B55588CF /* PBXTargetDependency */,
+			);
+			name = MiniKit.Framework;
+			productName = MiniKit.Framework;
+			productReference = 6D46531C4290428EA7BD2CA4 /* MiniKit.Framework */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9DB54CF5A79D4DD38A27C328 /* ImGui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167286B3B574494D9FD05BE2 /* Build configuration list for PBXNativeTarget "ImGui" */;
+			buildPhases = (
+				5BEE17CE116849B0B5CF4DBF /* Sources */,
+				32FD56B1F87942D89D6ACDFB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8FB45DF84A54A1C8C076207 /* PBXTargetDependency */,
+			);
+			name = ImGui;
+			productName = ImGui;
+			productReference = D6CA04C3D7E04A218068B5AE /* ImGui */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3C8E36061E64FE8BD759BD8 /* SDL2-static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB915FEE187C4A2586EF5940 /* Build configuration list for PBXNativeTarget "SDL2-static" */;
+			buildPhases = (
+				0603855DC577475EB8FF0631 /* Sources */,
+				6B426312B7D94BA2947ADDD5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDL2-static";
+			productName = "SDL2-static";
+			productReference = 7CD825F21F4B41A2B3D1F822 /* SDL2-static */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C721C08C3429475F9AAF9CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 6D7BFDF8A9C543109E670D74 /* Build configuration list for PBXProject "MiniKit" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				5A8020CE86E84AF196FFE52A /* Debug */,
+				4D0CB44F159F410B8D25C4A0 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 87B331AF978040A3BB4980EB;
+			projectDirPath = ../../minikit;
+			projectRoot = "";
+			targets = (
+				03115A46B1F2454AA6907E9B /* ALL_BUILD */,
+				9DB54CF5A79D4DD38A27C328 /* ImGui */,
+				996762F22BEA4B6395419B97 /* MiniKit.Framework */,
+				C3C8E36061E64FE8BD759BD8 /* SDL2-static */,
+				9009C9A475974821BE21F6AA /* SDL2main */,
+				24904636616442BEB904A44D /* ZERO_CHECK */,
+				7F1F507FE1914E2A83CA4DAF /* install */,
+				50C2225606694F829C9AC103 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016CCBEECC224E17AE1FE7B0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/losik/Downloads/UcodePuzzle/build/minikit -f /Users/losik/Downloads/UcodePuzzle/build/minikit/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C8B9B9628600475EB03CBF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6007B1DED2154E298DA6F39F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2 -f /Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B9DB2081332144C58AA589BB /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/losik/Downloads/UcodePuzzle/build/minikit -f /Users/losik/Downloads/UcodePuzzle/build/minikit/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FF6432218E3B42BAAB927AC6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/losik/Downloads/UcodePuzzle/build/minikit -f /Users/losik/Downloads/UcodePuzzle/build/minikit/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0603855DC577475EB8FF0631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B78FAF03A6140D2A4A45085 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL.c */,
+				5E0A6B2547914142B99DDEE9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_assert.c */,
+				A9B1CE14FC6F4A969B537445 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_dataqueue.c */,
+				A1341CC66D3C491A902FDADF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_error.c */,
+				FAF38DD54F1E4AEA96ACE305 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_hints.c */,
+				AF31FAB7DBDE44C1867FB4B3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/SDL_log.c */,
+				58749882C49340BEB7DACE6C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/atomic/SDL_atomic.c */,
+				D9DE6FDF09EF4819AC3D5DF7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/atomic/SDL_spinlock.c */,
+				A101852B83A0417587BEE247 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audio.c */,
+				B6A10EDB24BD4B99B93D3900 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiocvt.c */,
+				D0915B02406841219796EA7B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiodev.c */,
+				0809FB41F6DF4EBDB84D0E22 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_audiotypecvt.c */,
+				DEF944A803DC478499095D73 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_mixer.c */,
+				CAEC8627375C432CB035CEB5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/SDL_wave.c */,
+				9B871A75AB7F4E84B6DEC209 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/coreaudio/SDL_coreaudio.m */,
+				B3CD386B1DFD48F3B52E606E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/disk/SDL_diskaudio.c */,
+				737FF5404B684B81BFCA2241 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/audio/dummy/SDL_dummyaudio.c */,
+				1529BC7CF8AA49A68F834589 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/cpuinfo/SDL_cpuinfo.c */,
+				64C10B079A3C4F6885618456 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/dynapi/SDL_dynapi.c */,
+				28A66A1B23854B4897709A30 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_clipboardevents.c */,
+				F6682AA87B554C3EBF17A64D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_displayevents.c */,
+				3DD3E963986F48199C735B9E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_dropevents.c */,
+				A59396F74652476F9EC26223 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_events.c */,
+				C35BB251CC8B46328B0616E9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_gesture.c */,
+				A871EEE93DBE4BE98A28EEC1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_keyboard.c */,
+				417BF8DC16254088A813E8B9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_mouse.c */,
+				682AA865A72B453C8AA7C61F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_quit.c */,
+				339FA3CD62614250A2C36476 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_touch.c */,
+				90D940B6CE0349E1AC4FAE69 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/events/SDL_windowevents.c */,
+				B598C7FDA6204376A9941B2F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/file/SDL_rwops.c */,
+				0A28E555FE394DE69967B822 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/file/cocoa/SDL_rwopsbundlesupport.m */,
+				22F75B26AB4A4BAE8F7211B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/filesystem/cocoa/SDL_sysfilesystem.m */,
+				5919A85C769F435EA6C24D5B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/SDL_haptic.c */,
+				76CF2FC7175445DBAEA441AF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/haptic/darwin/SDL_syshaptic.c */,
+				B0783054E63744DC9A44476E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/SDL_gamecontroller.c */,
+				B945819542AF4DC0B586E9F3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/SDL_joystick.c */,
+				E1E61E88061543FEB1401E71 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/joystick/darwin/SDL_sysjoystick.c */,
+				1463A989089846FB9A934E2E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_atan2.c */,
+				FEFE3DB7502F44A499F48DF6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_exp.c */,
+				3FDA62A0CF6B48C282EF7432 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_fmod.c */,
+				F8324092644348CEB779C67D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_log.c */,
+				D96B0078CA33446F884AA3D5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_log10.c */,
+				A6BB32C3249246C6872672A3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_pow.c */,
+				A504EB31DC7047348033A712 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_rem_pio2.c */,
+				24052DF05B9841EF94BA3A95 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/e_sqrt.c */,
+				4E0A88DDA69C43E48DB91657 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_cos.c */,
+				E3904C2EFD7847ADBE3C7720 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_rem_pio2.c */,
+				599AA57CC04440948484E7CF /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_sin.c */,
+				4708659FDB414F7CA8CD49D9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/k_tan.c */,
+				71F57271E18D4925A2865B4A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_atan.c */,
+				02BE39A30CD7449DADAB2E96 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_copysign.c */,
+				7EB97C641EAB42CF9292ACB4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_cos.c */,
+				7FA2E214A1144A5482A922EB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_fabs.c */,
+				66999919A9134DF3AD3CA90E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_floor.c */,
+				FA66191F2F764A9CB3C570D4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_scalbn.c */,
+				422A530A85E641389CF64B2C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_sin.c */,
+				B614934460E843A890CFD5C1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/libm/s_tan.c */,
+				11DCA8DDAF014482B5376EC6 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/loadso/dlopen/SDL_sysloadso.c */,
+				6556AE9711FD4CAFB5033D84 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/power/SDL_power.c */,
+				4C8305E3E45F417EB4C7764A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/power/macosx/SDL_syspower.c */,
+				FE85B7DB2AC04AE1AF04C54F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_d3dmath.c */,
+				2A2DA9078AF34E559B091158 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_render.c */,
+				9E34ADC7F48049C3A23B40C9 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/SDL_yuv_sw.c */,
+				C3CA83B514944D6C90F25701 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d/SDL_render_d3d.c */,
+				00855B7CCE994CD0A9263BEB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d/SDL_shaders_d3d.c */,
+				EA8CC739EE5C4C6E90931E99 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d11/SDL_render_d3d11.c */,
+				854EEFE7831B4469AC71774B /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/direct3d11/SDL_shaders_d3d11.c */,
+				49F23CA3C6F64480B47F7C29 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/metal/SDL_render_metal.m */,
+				985BF4249FE4446B855930C0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengl/SDL_render_gl.c */,
+				EE7D1694AA824E1291469499 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengl/SDL_shaders_gl.c */,
+				7ED246A6A2344FEA9B1C9B8C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles/SDL_render_gles.c */,
+				14D0BF264FE2418393F7F450 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles2/SDL_render_gles2.c */,
+				1C6BDADAAD544B38B43640AB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/opengles2/SDL_shaders_gles2.c */,
+				577A376650834827AF88C6A5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/psp/SDL_render_psp.c */,
+				8B2FC6A78789482AB978FC35 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendfillrect.c */,
+				C7652C9DBC9C4EB7838F9C5E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendline.c */,
+				7AEE0E4F565C4A3EAFACC0D7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_blendpoint.c */,
+				4A65FBCC20F24345847C1281 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_drawline.c */,
+				992949CE18AD4630A7DA1801 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_drawpoint.c */,
+				1D8910BD4D744A21ACFCA699 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_render_sw.c */,
+				B99CFC3C8DC1470BA294C63F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/render/software/SDL_rotate.c */,
+				C0F78181EF624A19A9760DBC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/sensor/SDL_sensor.c */,
+				B94CDBFC42D842AAB51D943E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/sensor/dummy/SDL_dummysensor.c */,
+				FA43DC7CC974443C8C165E39 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_getenv.c */,
+				19D3FB94BCA041E994377572 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_iconv.c */,
+				6F037F909F824F708F73299A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_malloc.c */,
+				AA52E0166DF74C478FA4539A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_qsort.c */,
+				6A0399827D96429A86F2081F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_stdlib.c */,
+				3A7672E4E35C4C82869397BD /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_string.c */,
+				18439792D81146B48C98F16A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/stdlib/SDL_strtokr.c */,
+				3F2C8BA2ADB941CBBF433402 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/SDL_thread.c */,
+				DFC27CEF056648949286C283 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_syscond.c */,
+				0BA18515DBE840F69756328C /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_sysmutex.c */,
+				EE92C25355A3474B83E1EE88 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_syssem.c */,
+				161159DF26544B85AC6DBBE4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_systhread.c */,
+				1A2A174A666B4ADDA579924E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/thread/pthread/SDL_systls.c */,
+				C9290D95F5E9463CA17D0B3F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/timer/SDL_timer.c */,
+				408A25232FC04D3F83342171 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/timer/unix/SDL_systimer.c */,
+				E8E0F8248F4742EAB268CFDE /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_RLEaccel.c */,
+				4A7A0B90DEC44EAF9AC4B461 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit.c */,
+				40BDCDEE3B8347789DB966E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_0.c */,
+				11A24E74FCC64A93A53040BB /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_1.c */,
+				51D96766BA014F34BD8F70B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_A.c */,
+				2C8A124D90244862A30D17C5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_N.c */,
+				C43C950E212749DCAD40431A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_auto.c */,
+				92B4A458C2004E65A1866920 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_copy.c */,
+				A018E406AFEC48CB982D3C61 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_blit_slow.c */,
+				403C33F03C404FD0A86BC31F /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_bmp.c */,
+				1EB8CD774E7C4423827CE192 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_clipboard.c */,
+				8D3AA47CFE3B4E69A9C74DA4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_egl.c */,
+				E81F674E83834381B7453FCC /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_fillrect.c */,
+				1F417DBB91624503AA930005 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_pixels.c */,
+				46272D06B62D420DBE707349 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_rect.c */,
+				8150E0A9BD3A43F3AE0AAB8A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_shape.c */,
+				018381A684FA4436B8D4A815 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_stretch.c */,
+				0373B6BF363345A8BA7939B7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_surface.c */,
+				6903B2549A4E4A15A21AAAA2 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_video.c */,
+				AADE244DB03945C388075DC1 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_vulkan_utils.c */,
+				7400D31B1FF0447997FB7E88 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/SDL_yuv.c */,
+				265A885DC2D240B08D615A11 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaclipboard.m */,
+				7F2B1D7AD6904AC8B3FEA727 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaevents.m */,
+				F5B3247B3E6B491CA785EF31 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoakeyboard.m */,
+				1838803BBD344879BE55742D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamessagebox.m */,
+				63239CB0A56447768545E9B3 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoametalview.m */,
+				8C40E5B3D5CF42BBAA5C67B7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamodes.m */,
+				2F6E8CEEE0E9477E9FFEEFA0 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamouse.m */,
+				0CBDF7E39BCF46B9896B8E6D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoamousetap.m */,
+				2C2C655C900E4806A4086C06 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaopengl.m */,
+				CF9CB0DD951B45A89980F56D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoaopengles.m */,
+				4DF31CC8F9834CB28D0F47E8 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoashape.m */,
+				2C9E20A1487246D3979FB9D7 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoavideo.m */,
+				EB0C70514BBE44C2AD3880B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoavulkan.m */,
+				ADD4C632BC14408C9C98FC80 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/cocoa/SDL_cocoawindow.m */,
+				4D982CF9F98441C6AD4202CA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullevents.c */,
+				CA40038C05DF41FB8BA1C35D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullframebuffer.c */,
+				778138AB8122404D97975F3D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/dummy/SDL_nullvideo.c */,
+				CF75D18238F3424B95008FA5 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/yuv2rgb/yuv_rgb.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30818DB6FD1546F0B21209C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D06DB2C4A64A7BAA075670 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/main/dummy/SDL_dummy_main.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEE17CE116849B0B5CF4DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2178EA2929214FA68AB2483E /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_metal.mm */,
+				8D68ADDB0A3B41FBA5F8F91D /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/backends/imgui_impl_sdl.cpp */,
+				CD3774394AED44818851DD10 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui.cpp */,
+				CF6A12C8D6C142608ADA8A4A /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_demo.cpp */,
+				E7129839D46A4FC8B94E3ABA /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_draw.cpp */,
+				5728CCAB9DFB4414B6F6B215 /* /Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/imgui_widgets.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97383C5774854358A96A8ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749AF1DAA7184395BF3F9777 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Context.cpp */,
+				B83F229FC6EB40CDB6FCBF14 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Engine/Macos/Context.mm */,
+				C27BBE2A75EB43C2A54692B4 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Foundation/Error.cpp */,
+				80A20B4E360B4ABABA2E3D6A /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/CommandBuffer.mm */,
+				2DD23067E9DE4280A2089256 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Device.mm */,
+				D08EDEA6B7FF48059146049E /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Graphics/Metal/Image.mm */,
+				4AB3C8C39BB8487DB61B30C5 /* /Users/losik/Downloads/UcodePuzzle/minikit/framework/src/Platform/Window.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C2E71A2BC8F4D61BD949288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3C8E36061E64FE8BD759BD8 /* SDL2-static */;
+			targetProxy = ED194C1E7B654420BC241A87 /* PBXContainerItemProxy */;
+		};
+		3CEE26943F0C483697384D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DB54CF5A79D4DD38A27C328 /* ImGui */;
+			targetProxy = 40127F3819854E408648C649 /* PBXContainerItemProxy */;
+		};
+		486C2CA9E5504E4780D138AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9009C9A475974821BE21F6AA /* SDL2main */;
+			targetProxy = CB6C2CE9FB8E446FB5B433AC /* PBXContainerItemProxy */;
+		};
+		558D027774C9494EAFD108EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03115A46B1F2454AA6907E9B /* ALL_BUILD */;
+			targetProxy = 558999ADA50B496C8F18FF68 /* PBXContainerItemProxy */;
+		};
+		7ED431073502481481F7346F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24904636616442BEB904A44D /* ZERO_CHECK */;
+			targetProxy = F238E0787DAA440294B2057B /* PBXContainerItemProxy */;
+		};
+		B5C2508A71E041F9B55588CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DB54CF5A79D4DD38A27C328 /* ImGui */;
+			targetProxy = 05B3BB6805C84E9FBB67EAEF /* PBXContainerItemProxy */;
+		};
+		CDB802588E6C45FBA0158E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3C8E36061E64FE8BD759BD8 /* SDL2-static */;
+			targetProxy = 8AE22E4279354F5BACF23BEB /* PBXContainerItemProxy */;
+		};
+		D8FB45DF84A54A1C8C076207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3C8E36061E64FE8BD759BD8 /* SDL2-static */;
+			targetProxy = 4C97030370514F5CB495A10E /* PBXContainerItemProxy */;
+		};
+		E6D5358B78F64AAE8ADFD29F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 996762F22BEA4B6395419B97 /* MiniKit.Framework */;
+			targetProxy = 7B664CAA09964F95B1645527 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		230EA621FF274A3ABDB03367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2/include,/Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall     ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2maind;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2447D8FAEC184B3A975D7114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2/include,/Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall      -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		31D0F507FF4342DE9DD60463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2/include,/Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall      -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3A1DEC8A54994FCA932E5366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/.,/Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fobjc-arc ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ImGui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		447BA198EF854CCDA0943AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4D96900792AA41968547ECE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		545615058F564CA488D217C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5F539E4178A24E8E84E9FA27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5FB76D51839544A498FBA700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USING_GENERATED_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2/include,/Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -idirafter /Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/src/video/khronos -D_THREAD_SAFE -msse3 -msse2 -msse -m3dnow -mmmx -Wshadow -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement -fno-strict-aliasing -Wall     ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SDL2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A340CC9C3FF74642B70D10DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AF9636FC80D041C7BA4D7D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/build;
+			};
+			name = Release;
+		};
+		B438E2D3789840E3AD5BD36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/losik/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/losik/Downloads/UcodePuzzle/minikit/framework/include,/Users/losik/Downloads/UcodePuzzle/minikit/framework/src,/Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include,/Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fobjc-arc '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MiniKit.Framework;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B82095D0D0FD4BE1985FB052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/losik/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/losik/Downloads/UcodePuzzle/minikit/framework/include,/Users/losik/Downloads/UcodePuzzle/minikit/framework/src,/Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include,/Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fobjc-arc '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MiniKit.Framework;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/framework;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BAA3FCD8057A4B9C82990B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C6964F1A23C541808373D26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/losik/Downloads/UcodePuzzle/minikit/external/ImGUI/.,/Users/losik/Downloads/UcodePuzzle/minikit/external/SDL2/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fobjc-arc ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ImGui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/ImGUI;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E331B1D5C60845F3A3007444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/build;
+			};
+			name = Debug;
+		};
+		F1C8D8C62CF44216B951FB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit/external/SDL2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F37113C546784141951E6F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/losik/Downloads/UcodePuzzle/build/minikit;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FDCB02A004242928084AFA2 /* Build configuration list for PBXNativeTarget "SDL2main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230EA621FF274A3ABDB03367 /* Debug */,
+				31D0F507FF4342DE9DD60463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		167286B3B574494D9FD05BE2 /* Build configuration list for PBXNativeTarget "ImGui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6964F1A23C541808373D26C /* Debug */,
+				3A1DEC8A54994FCA932E5366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E0E916D72DA495F8C2641D9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D96900792AA41968547ECE2 /* Debug */,
+				5F539E4178A24E8E84E9FA27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		43DBD0D1BEF541B994ECD31E /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C8D8C62CF44216B951FB85 /* Debug */,
+				BAA3FCD8057A4B9C82990B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		55AC5F0C32F047258FE68AB4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545615058F564CA488D217C3 /* Debug */,
+				A340CC9C3FF74642B70D10DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D7BFDF8A9C543109E670D74 /* Build configuration list for PBXProject "MiniKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E331B1D5C60845F3A3007444 /* Debug */,
+				AF9636FC80D041C7BA4D7D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C55EADD1D09F49438F9B19B5 /* Build configuration list for PBXNativeTarget "MiniKit.Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B438E2D3789840E3AD5BD36D /* Debug */,
+				B82095D0D0FD4BE1985FB052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB915FEE187C4A2586EF5940 /* Build configuration list for PBXNativeTarget "SDL2-static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB76D51839544A498FBA700 /* Debug */,
+				2447D8FAEC184B3A975D7114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE1A5FA871E042419ECBC544 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447BA198EF854CCDA0943AF2 /* Debug */,
+				F37113C546784141951E6F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C721C08C3429475F9AAF9CE4 /* Project object */;
+}

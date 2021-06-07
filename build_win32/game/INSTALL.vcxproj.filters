@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\f781b55a23058bf09f826b771d6bd547\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6BECD928-0330-3312-8184-0A6A41EC853E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
