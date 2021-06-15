@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\f781b55a23058bf09f826b771d6bd547\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\5cca87039892460c10906230611d630d\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{6BECD928-0330-3312-8184-0A6A41EC853E}</UniqueIdentifier>
+      <UniqueIdentifier>{7B5A9974-8486-33B6-B0EB-9884F44EA924}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ASUS/Downloads/UcodePuzzle/game/src
+# Install script for directory: C:/Users/ASUS/Downloads/UPuzzleGame/game/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

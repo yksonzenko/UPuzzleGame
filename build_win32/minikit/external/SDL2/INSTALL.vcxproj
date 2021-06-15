@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{382D23C4-9F5A-33A5-A788-61EE1DCFC365}</ProjectGuid>
+    <ProjectGuid>{25FB129F-3DAD-3A4C-B236-F7497C166EBF}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -46,7 +46,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -69,7 +69,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\src\video\khronos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -91,7 +91,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\7c52aed0f5d8bdf7090eeade824a93be\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\36591dfa571c810647f6b039ab5a8aa1\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -103,7 +103,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\SDL2\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\SDL2\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
@@ -117,20 +117,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\SDL2\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\SDL2\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\ZERO_CHECK.vcxproj">
-      <Project>{28459AAF-1C90-34F6-BA9D-9F3E4C89A725}</Project>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\ZERO_CHECK.vcxproj">
+      <Project>{151DD848-5E35-3714-88BD-19B52B1C0C99}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\SDL2\ALL_BUILD.vcxproj">
-      <Project>{D7C566EB-B025-3E4A-9CBE-39CF5C354225}</Project>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\SDL2\ALL_BUILD.vcxproj">
+      <Project>{3BE22FD5-E762-320E-AAD9-C5985DCAECF5}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

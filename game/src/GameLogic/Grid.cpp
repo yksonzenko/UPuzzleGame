@@ -48,12 +48,9 @@ void Grid::m_SetGridPositions()
 void Grid::drawGrid(::MiniKit::Graphics::CommandBuffer& commandBuf)
 {
     ::MiniKit::Graphics::DrawInfo drawGrid{};
-    for (const auto& grid : m_GridRect)
-    {
-        drawGrid.scale = grid.scale;
-        drawGrid.position = grid.position;
-        commandBuf.Draw(drawGrid);
-    }
+    drawGrid.scale = {0.78, 0.78};
+    drawGrid.position = { 0.0, 0.0 };
+    commandBuf.Draw(drawGrid);
 }
 
 void Grid::drawLockedTetromino(::MiniKit::Graphics::CommandBuffer& commandBuf)

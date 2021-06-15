@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\ASUS\Downloads\UcodePuzzle\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\ASUS\Downloads\UPuzzleGame\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\ASUS\Downloads\UcodePuzzle\build\game\src\Debug\puzzle.exe</FullPath>
+      <FullPath>C:\Users\ASUS\Downloads\UPuzzleGame\build\game\src\Debug\puzzle.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DC7E2EAA-DC7C-312C-97A0-38AE10DF2D16}</ProjectGuid>
+    <ProjectGuid>{08C9A41C-C96A-3B42-A1CE-F50111430371}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -41,18 +41,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\ImGUI\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\ImGUI\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ImGui.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ImGui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\ImGUI\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\ImGUI\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ImGui.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ImGui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -68,10 +68,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -84,7 +84,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -100,10 +100,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,11 +115,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Downloads/UPuzzleGame/minikit/external/ImGUI/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Downloads/UcodePuzzle -BC:/Users/ASUS/Downloads/UcodePuzzle/build --check-stamp-file C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/external/ImGUI/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Downloads/UPuzzleGame -BC:/Users/ASUS/Downloads/UPuzzleGame/build --check-stamp-file C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/external/ImGUI/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,11 +128,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\ImGUI\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\ImGUI\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Downloads/UcodePuzzle/minikit/external/ImGUI/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Downloads/UPuzzleGame/minikit/external/ImGUI/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Downloads/UcodePuzzle -BC:/Users/ASUS/Downloads/UcodePuzzle/build --check-stamp-file C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/external/ImGUI/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Downloads/UPuzzleGame -BC:/Users/ASUS/Downloads/UPuzzleGame/build --check-stamp-file C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/external/ImGUI/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,30 +141,30 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\ImGUI\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\ImGUI\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\imgui.h" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\imgui.cpp" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\imgui_demo.cpp" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\imgui_draw.cpp" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\imgui_widgets.cpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\backends\imgui_impl_sdl.h" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\backends\imgui_impl_sdl.cpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\backends\imgui_impl_dx11.h" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\backends\imgui_impl_dx11.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\imgui.h" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\imgui.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\imgui_demo.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\imgui_draw.cpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\imgui_widgets.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\backends\imgui_impl_sdl.h" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\backends\imgui_impl_sdl.cpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\backends\imgui_impl_dx11.h" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\backends\imgui_impl_dx11.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\ZERO_CHECK.vcxproj">
-      <Project>{28459AAF-1C90-34F6-BA9D-9F3E4C89A725}</Project>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\ZERO_CHECK.vcxproj">
+      <Project>{151DD848-5E35-3714-88BD-19B52B1C0C99}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\SDL2\SDL2-static.vcxproj">
-      <Project>{80737C93-E80D-377D-B68C-45919A039893}</Project>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\SDL2\SDL2-static.vcxproj">
+      <Project>{FCC47768-017B-3D72-BF8E-0E1FFE49886A}</Project>
       <Name>SDL2-static</Name>
     </ProjectReference>
   </ItemGroup>

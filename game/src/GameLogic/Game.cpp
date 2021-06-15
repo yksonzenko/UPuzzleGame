@@ -1,4 +1,4 @@
-﻿// Game
+// Game
 
 #include "Game.hpp"
 #include "Directions.hpp"
@@ -29,7 +29,6 @@ Game::Game() : m_CurState(GameState::Started), m_GameTimer(), m_GameScore(), m_G
 
 ::std::error_code Game::Start(::MiniKit::Engine::Context& context) noexcept
 {
-    //::MiniKit::Engine::Context& test = 
     auto& window = context.GetWindow();
     window.AddResponder(*this);
     m_pOpen = true;
@@ -173,7 +172,7 @@ bool Game::m_LoadTexture(::MiniKit::Engine::Context& context)
 {
     auto& graphicsDevice = context.GetGraphicsDevice();
 
-    m_GridTexture = graphicsDevice.CreateImage("assets/images/gridBlock_32px.png");
+    m_GridTexture = graphicsDevice.CreateImage("assets/images/grid.png");
 
     if (!m_GridTexture)
     {

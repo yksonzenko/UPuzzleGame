@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C348E8B1-CA01-37E6-8081-5DB99D3A587A}</ProjectGuid>
+    <ProjectGuid>{D465080E-2D4B-360A-A9BA-BCCA31BCDA15}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -41,18 +41,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\framework\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\framework\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MiniKit.Framework.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MiniKit.Framework</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\framework\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\framework\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MiniKit.Framework.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MiniKit.Framework</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -60,6 +60,9 @@
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/MiniKit.Framework.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
@@ -68,10 +71,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -84,12 +87,15 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/MiniKit.Framework.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
@@ -100,10 +106,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UcodePuzzle\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\SDL2\include;C:\Users\ASUS\Downloads\UPuzzleGame\minikit\external\ImGUI\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,11 +121,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Downloads/UcodePuzzle/minikit/framework/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Downloads/UPuzzleGame/minikit/framework/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Downloads/UcodePuzzle -BC:/Users/ASUS/Downloads/UcodePuzzle/build --check-stamp-file C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Downloads/UPuzzleGame -BC:/Users/ASUS/Downloads/UPuzzleGame/build --check-stamp-file C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\framework\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\framework\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Downloads/UcodePuzzle/minikit/framework/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Downloads/UPuzzleGame/minikit/framework/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Downloads/UcodePuzzle -BC:/Users/ASUS/Downloads/UcodePuzzle/build --check-stamp-file C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Downloads/UPuzzleGame -BC:/Users/ASUS/Downloads/UPuzzleGame/build --check-stamp-file C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,145 +147,97 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\framework\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\framework\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\framework\CMakeFiles\MiniKit.Framework.dir\cmake_pch.cxx">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\framework\CMakeFiles\MiniKit.Framework.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/MiniKit.Framework.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/MiniKit.Framework.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\MiniKit.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Foundation\Predef.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Foundation\Noncopyable.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Foundation\Object.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Foundation\Error.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Engine\Context.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Engine\ContextSubObject.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Graphics\CommandBuffer.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Graphics\Device.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Graphics\DeviceSubObject.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Graphics\Image.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Graphics\Numerics.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Platform\Keyboard.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Platform\Mouse.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Platform\Responder.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\include\MiniKit\Platform\Window.hpp" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Foundation\Error.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\MiniKit.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Foundation\Predef.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Foundation\Noncopyable.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Foundation\Object.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Foundation\Error.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Engine\Context.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Engine\ContextSubObject.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Graphics\CommandBuffer.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Graphics\Device.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Graphics\DeviceSubObject.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Graphics\Image.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Graphics\Numerics.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Platform\Keyboard.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Platform\Mouse.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Platform\Responder.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\include\MiniKit\Platform\Window.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Foundation\Error.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Engine\Context.hpp" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Engine\Context.cpp">
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Engine\Context.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Engine\Context.cpp">
       <ObjectFileName>$(IntDir)/src/Engine/Context.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\CommandBuffer.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\Device.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\Image.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Platform\Window.hpp" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Platform\Window.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\CommandBuffer.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\Device.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\Image.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Platform\Window.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Platform\Window.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Engine\Common\Context.cpp">
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Engine\Common\Context.cpp">
       <ObjectFileName>$(IntDir)/src/Engine/Common/Context.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\Arguments.hpp" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\CommandBuffer.hpp" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\CommandBuffer.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\D3D11\Arguments.hpp" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\D3D11\CommandBuffer.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\D3D11\CommandBuffer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\Device.hpp" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\Device.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\D3D11\Device.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\D3D11\Device.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\Image.hpp" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\Image.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\D3D11\Image.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\D3D11\Image.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\WICTextureLoader11.hpp" />
-    <ClCompile Include="C:\Users\ASUS\Downloads\UcodePuzzle\minikit\framework\src\Graphics\D3D11\WICTextureLoader11.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/MiniKit.Framework.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\D3D11\WICTextureLoader11.hpp" />
+    <ClCompile Include="C:\Users\ASUS\Downloads\UPuzzleGame\minikit\framework\src\Graphics\D3D11\WICTextureLoader11.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/CMakeFiles/MiniKit.Framework.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\framework\CMakeFiles\MiniKit.Framework.dir\Debug\cmake_pch.hxx" />
-    <ClInclude Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\framework\CMakeFiles\MiniKit.Framework.dir\Release\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\framework\CMakeFiles\MiniKit.Framework.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\framework\CMakeFiles\MiniKit.Framework.dir\Release\cmake_pch.hxx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\ZERO_CHECK.vcxproj">
-      <Project>{28459AAF-1C90-34F6-BA9D-9F3E4C89A725}</Project>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\ZERO_CHECK.vcxproj">
+      <Project>{151DD848-5E35-3714-88BD-19B52B1C0C99}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\ImGUI\ImGui.vcxproj">
-      <Project>{DC7E2EAA-DC7C-312C-97A0-38AE10DF2D16}</Project>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\ImGUI\ImGui.vcxproj">
+      <Project>{08C9A41C-C96A-3B42-A1CE-F50111430371}</Project>
       <Name>ImGui</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\ASUS\Downloads\UcodePuzzle\build\minikit\external\SDL2\SDL2-static.vcxproj">
-      <Project>{80737C93-E80D-377D-B68C-45919A039893}</Project>
+    <ProjectReference Include="C:\Users\ASUS\Downloads\UPuzzleGame\build\minikit\external\SDL2\SDL2-static.vcxproj">
+      <Project>{FCC47768-017B-3D72-BF8E-0E1FFE49886A}</Project>
       <Name>SDL2-static</Name>
     </ProjectReference>
   </ItemGroup>

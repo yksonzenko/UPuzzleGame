@@ -1,6 +1,6 @@
 ﻿<img align="right" src="./game/assets/images/main1.png" height="100px">
 
-# UTetris
+# UPuzzleGame
 ***
 Classic and legendary fun block puzzle game
 This game allows you to test your problem-solving skills even further, and with a variety of difficulty levels, it will provide hours of fun for all puzzle-lovers!

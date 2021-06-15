@@ -1,7 +1,7 @@
 Detecting OBJCXX compiler ABI info failed to compile with the following output:
-Change Dir: C:/Users/ASUS/Downloads/UcodePuzzle/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/ASUS/Downloads/UPuzzleGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_b8eda.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.9.0+5e4b48a27 для .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_b2fcf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.10.1+2fd48ab73 для .NET Framework
 (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
 
@@ -9,25 +9,25 @@ Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Profess
 Cannot copy output executable
   ''
 to destination specified by COPY_FILE:
-  'C:/Users/ASUS/Downloads/UcodePuzzle/build/CMakeFiles/3.19.20122902-MSVC_2/CMakeDetermineCompilerABI_OBJCXX.bin'
+  'C:/Users/ASUS/Downloads/UPuzzleGame/build/CMakeFiles/3.20.21032501-MSVC_2/CMakeDetermineCompilerABI_OBJCXX.bin'
 Unable to find the executable at any of:
-  C:/Users/ASUS/Downloads/UcodePuzzle/build/CMakeFiles/CMakeTmp/cmTC_b8eda.exe
-  C:/Users/ASUS/Downloads/UcodePuzzle/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8eda.exe
-  C:/Users/ASUS/Downloads/UcodePuzzle/build/CMakeFiles/CMakeTmp/Development/cmTC_b8eda.exe
+  C:/Users/ASUS/Downloads/UPuzzleGame/build/CMakeFiles/CMakeTmp/cmTC_b2fcf.exe
+  C:/Users/ASUS/Downloads/UPuzzleGame/build/CMakeFiles/CMakeTmp/Debug/cmTC_b2fcf.exe
+  C:/Users/ASUS/Downloads/UPuzzleGame/build/CMakeFiles/CMakeTmp/Development/cmTC_b2fcf.exe
 
 
 Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
-Change Dir: C:/Users/ASUS/Downloads/UcodePuzzle/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/ASUS/Downloads/UPuzzleGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_b7585.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.9.0+5e4b48a27 для .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_5fcb1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.10.1+2fd48ab73 для .NET Framework
 (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29915 for x64
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   src.c
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7585.dir\Debug\\" /Fd"cmTC_b7585.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\CMakeTmp\src.c
-C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\CMakeTmp\src.c(4,27): error C2061: syntax error: identifier 'x1' [C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\CMakeTmp\cmTC_b7585.vcxproj]
-C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\CMakeTmp\src.c(4,27): error C2059: syntax error: ';' [C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\CMakeTmp\cmTC_b7585.vcxproj]
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fcb1.dir\Debug\\" /Fd"cmTC_5fcb1.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W1 /Gd /TC /errorReport:queue C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\CMakeTmp\src.c
+C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\CMakeTmp\src.c(4,27): error C2061: syntax error: identifier 'x1' [C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\CMakeTmp\cmTC_5fcb1.vcxproj]
+C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\CMakeTmp\src.c(4,27): error C2059: syntax error: ';' [C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\CMakeTmp\cmTC_5fcb1.vcxproj]
 
 
 Source file was:
@@ -37,17 +37,17 @@ Source file was:
         XINPUT_GAMEPAD_EX x1;
         int main(int argc, char **argv) { }
 Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
-Change Dir: C:/Users/ASUS/Downloads/UcodePuzzle/build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/ASUS/Downloads/UPuzzleGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_240cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.9.0+5e4b48a27 для .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_3a594.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.10.1+2fd48ab73 для .NET Framework
 (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29915 for x64
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   src.c
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_240cf.dir\Debug\\" /Fd"cmTC_240cf.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\CMakeTmp\src.c
-C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\CMakeTmp\src.c(4,25): error C2061: syntax error: identifier 's1' [C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\CMakeTmp\cmTC_240cf.vcxproj]
-C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\CMakeTmp\src.c(4,25): error C2059: syntax error: ';' [C:\Users\ASUS\Downloads\UcodePuzzle\build\CMakeFiles\CMakeTmp\cmTC_240cf.vcxproj]
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a594.dir\Debug\\" /Fd"cmTC_3a594.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W1 /Gd /TC /errorReport:queue C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\CMakeTmp\src.c
+C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\CMakeTmp\src.c(4,25): error C2061: syntax error: identifier 's1' [C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\CMakeTmp\cmTC_3a594.vcxproj]
+C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\CMakeTmp\src.c(4,25): error C2059: syntax error: ';' [C:\Users\ASUS\Downloads\UPuzzleGame\build\CMakeFiles\CMakeTmp\cmTC_3a594.vcxproj]
 
 
 Source file was:

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ASUS/Downloads/UcodePuzzle/minikit
+# Install script for directory: C:/Users/ASUS/Downloads/UPuzzleGame/minikit
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,21 +34,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/external/SDL2/cmake_install.cmake")
+  include("C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/external/SDL2/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/external/ImGUI/cmake_install.cmake")
+  include("C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/external/ImGUI/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/framework/cmake_install.cmake")
+  include("C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/framework/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/ASUS/Downloads/UcodePuzzle/build/minikit/examples/cmake_install.cmake")
+  include("C:/Users/ASUS/Downloads/UPuzzleGame/build/minikit/examples/cmake_install.cmake")
 endif()
 

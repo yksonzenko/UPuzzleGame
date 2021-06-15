@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ASUS/Downloads/UcodePuzzle/minikit/external/ImGUI
+# Install script for directory: C:/Users/ASUS/Downloads/UPuzzleGame/minikit/external/ImGUI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
